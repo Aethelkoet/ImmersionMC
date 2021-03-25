@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:iron_lancer"
+    },
+    "title": {
+      "translate": "advancements.advancement_strike_first_think_later.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_strike_first_think_later.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_strike_first_think_later": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "immersion:advancement_gemcutter"
+}

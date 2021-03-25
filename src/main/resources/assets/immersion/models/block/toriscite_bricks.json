@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/toriscite_bricks",
+    "up": "immersion:blocks/toriscite_bricks",
+    "north": "immersion:blocks/toriscite_bricks",
+    "east": "immersion:blocks/toriscite_bricks",
+    "south": "immersion:blocks/toriscite_bricks",
+    "west": "immersion:blocks/toriscite_bricks",
+    "particle": "immersion:blocks/toriscite_bricks"
+  }
+}

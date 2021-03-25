@@ -56,7 +56,7 @@ public class WoodenZweihanderItem extends ImmersionModElements.ModElement {
 						new ItemStack(Blocks.ACACIA_PLANKS, (int) (1)), new ItemStack(Blocks.DARK_OAK_PLANKS, (int) (1)),
 						new ItemStack(Blocks.CRIMSON_PLANKS, (int) (1)), new ItemStack(Blocks.WARPED_PLANKS, (int) (1)));
 			}
-		}, 3, -3.3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);

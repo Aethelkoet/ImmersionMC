@@ -47,7 +47,7 @@ public class StoneZweihanderItem extends ImmersionModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 15;
+				return 5;
 			}
 
 			public Ingredient getRepairMaterial() {
@@ -55,7 +55,7 @@ public class StoneZweihanderItem extends ImmersionModElements.ModElement {
 						new ItemStack(Blocks.ANDESITE, (int) (1)), new ItemStack(Blocks.COBBLESTONE, (int) (1)),
 						new ItemStack(Blocks.BLACKSTONE, (int) (1)));
 			}
-		}, 3, -3.3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);

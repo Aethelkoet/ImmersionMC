@@ -32,6 +32,7 @@ import net.aethelwyn.immersion.procedures.PROCHorticGiveSlot3Procedure;
 import net.aethelwyn.immersion.procedures.PROCHorticGiveSlot2Procedure;
 import net.aethelwyn.immersion.procedures.PROCHorticGiveSlot1Procedure;
 import net.aethelwyn.immersion.procedures.GUISolveDupeBugProcedure;
+import net.aethelwyn.immersion.procedures.BugFixWorkstation2InputProcedure;
 import net.aethelwyn.immersion.ImmersionModElements;
 import net.aethelwyn.immersion.ImmersionMod;
 
@@ -118,8 +119,18 @@ public class GUIHorticulturyGui extends ImmersionModElements.ModElement {
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 26) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(0, 0, 0);
+				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 115, 26) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(1, 0, 0);
+				}
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 53) {
 				@Override
@@ -438,5 +449,25 @@ public class GUIHorticulturyGui extends ImmersionModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (slotID == 0 && changeType == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				BugFixWorkstation2InputProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 1 && changeType == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				BugFixWorkstation2InputProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 }

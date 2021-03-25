@@ -41,6 +41,7 @@ import net.aethelwyn.immersion.procedures.PROCSawmillGiveSlot12Procedure;
 import net.aethelwyn.immersion.procedures.PROCSawmillGiveSlot11Procedure;
 import net.aethelwyn.immersion.procedures.PROCSawmillGiveSlot10Procedure;
 import net.aethelwyn.immersion.procedures.GUISolveDupeBugProcedure;
+import net.aethelwyn.immersion.procedures.BugFixWorkstationSlotChangeProcedure;
 import net.aethelwyn.immersion.ImmersionModElements;
 import net.aethelwyn.immersion.ImmersionMod;
 
@@ -127,6 +128,11 @@ public class SawmillGUIGui extends ImmersionModElements.ModElement {
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 35) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(0, 0, 0);
+				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 88, 17) {
 				@Override
@@ -607,5 +613,15 @@ public class SawmillGUIGui extends ImmersionModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (slotID == 0 && changeType == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				BugFixWorkstationSlotChangeProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 }

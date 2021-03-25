@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:iron_zweihander"
+    },
+    "title": {
+      "translate": "advancements.advancement_german_forgery.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_german_forgery.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_german_forgery": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "immersion:advancement_gemcutter"
+}

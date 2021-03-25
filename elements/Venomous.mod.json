@@ -55,21 +55,6 @@
       },
       {
         "value": "CUSTOM:NetheriteScimitar"
-      },
-      {
-        "value": "CUSTOM:StoneHookblade"
-      },
-      {
-        "value": "CUSTOM:GoldenHookblade"
-      },
-      {
-        "value": "CUSTOM:IronHookblade"
-      },
-      {
-        "value": "CUSTOM:DiamondHookblade"
-      },
-      {
-        "value": "CUSTOM:NetheriteHookblade"
       }
     ],
     "isTreasureEnchantment": false,

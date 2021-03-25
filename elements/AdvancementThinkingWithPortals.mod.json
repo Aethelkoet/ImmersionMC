@@ -1,0 +1,25 @@
+{
+  "_fv": 17,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Thinking With Portals",
+    "achievementDescription": "Create a portal to Corinth",
+    "achievementIcon": {
+      "value": "CUSTOM:GemGildedOrnateTorisciteBricks"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 20,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:AdvancementGems"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"27\" y=\"54\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

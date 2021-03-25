@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/toriscite_cobblestone",
+    "up": "immersion:blocks/toriscite_cobblestone",
+    "north": "immersion:blocks/toriscite_cobblestone",
+    "east": "immersion:blocks/toriscite_cobblestone",
+    "south": "immersion:blocks/toriscite_cobblestone",
+    "west": "immersion:blocks/toriscite_cobblestone",
+    "particle": "immersion:blocks/toriscite_cobblestone"
+  }
+}

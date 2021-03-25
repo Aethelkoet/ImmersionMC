@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "immersion:block/cobbled_toriscite_slab"
+    },
+    "type=top": {
+      "model": "immersion:block/cobbled_toriscite_slab_top"
+    },
+    "type=double": {
+      "model": "immersion:block/cobbled_toriscite_slab_full"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:gem_gilded_ornate_toriscite_bricks"
+    },
+    "title": {
+      "translate": "advancements.advancement_thinking_with_portals.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_thinking_with_portals.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "advancement_thinking_with_portals": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "immersion:advancement_gems"
+}

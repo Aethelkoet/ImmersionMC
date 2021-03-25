@@ -32,6 +32,9 @@
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "BugFixWorkstation2Input"
+          },
           "name": "Slot #0",
           "x": 168,
           "y": 62
@@ -46,6 +49,9 @@
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "BugFixWorkstation2Input"
+          },
           "name": "Slot #1",
           "x": 240,
           "y": 62

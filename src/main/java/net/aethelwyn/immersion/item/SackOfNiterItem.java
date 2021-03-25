@@ -30,6 +30,16 @@ public class SackOfNiterItem extends ImmersionModElements.ModElement {
 		}
 
 		@Override
+		public boolean hasContainerItem() {
+			return true;
+		}
+
+		@Override
+		public ItemStack getContainerItem(ItemStack itemstack) {
+			return new ItemStack(SackItem.block, (int) (1));
+		}
+
+		@Override
 		public int getItemEnchantability() {
 			return 0;
 		}

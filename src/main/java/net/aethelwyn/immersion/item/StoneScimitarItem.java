@@ -47,7 +47,7 @@ public class StoneScimitarItem extends ImmersionModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 15;
+				return 5;
 			}
 
 			public Ingredient getRepairMaterial() {

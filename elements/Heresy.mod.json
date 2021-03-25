@@ -64,8 +64,117 @@
         "value": "VANISHING_CURSE"
       }
     ],
-    "compatibleItems": [],
-    "isTreasureEnchantment": true,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:WoodenScimitar"
+      },
+      {
+        "value": "CUSTOM:StoneScimitar"
+      },
+      {
+        "value": "CUSTOM:GoldenScimitar"
+      },
+      {
+        "value": "CUSTOM:IronScimitar"
+      },
+      {
+        "value": "CUSTOM:DiamondScimitar"
+      },
+      {
+        "value": "CUSTOM:NetheriteScimitar"
+      },
+      {
+        "value": "CUSTOM:WoodenHookblade"
+      },
+      {
+        "value": "CUSTOM:StoneHookblade"
+      },
+      {
+        "value": "CUSTOM:GoldenHookblade"
+      },
+      {
+        "value": "CUSTOM:IronHookblade"
+      },
+      {
+        "value": "CUSTOM:DiamondHookblade"
+      },
+      {
+        "value": "CUSTOM:NetheriteHookblade"
+      },
+      {
+        "value": "CUSTOM:WoodenLancer"
+      },
+      {
+        "value": "CUSTOM:StoneLancer"
+      },
+      {
+        "value": "CUSTOM:GoldenLancer"
+      },
+      {
+        "value": "CUSTOM:IronLancer"
+      },
+      {
+        "value": "CUSTOM:DiamondLancer"
+      },
+      {
+        "value": "CUSTOM:NetheriteLancer"
+      },
+      {
+        "value": "CUSTOM:WoodenZweihander"
+      },
+      {
+        "value": "CUSTOM:StoneZweihander"
+      },
+      {
+        "value": "CUSTOM:GoldenZweihander"
+      },
+      {
+        "value": "CUSTOM:IronZweihander"
+      },
+      {
+        "value": "CUSTOM:DiamondZweihander"
+      },
+      {
+        "value": "CUSTOM:NetheriteZweihander"
+      },
+      {
+        "value": "Items.WOODEN_AXE"
+      },
+      {
+        "value": "Items.STONE_AXE"
+      },
+      {
+        "value": "Items.IRON_AXE"
+      },
+      {
+        "value": "Items.GOLDEN_AXE"
+      },
+      {
+        "value": "Items.DIAMOND_AXE"
+      },
+      {
+        "value": "Items.NETHERITE_AXE"
+      },
+      {
+        "value": "Items.WOODEN_SWORD"
+      },
+      {
+        "value": "Items.STONE_SWORD"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Items.GOLDEN_SWORD"
+      },
+      {
+        "value": "Items.DIAMOND_SWORD"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      }
+    ],
+    "isTreasureEnchantment": false,
     "isCurse": false,
     "isAllowedOnBooks": true
   }

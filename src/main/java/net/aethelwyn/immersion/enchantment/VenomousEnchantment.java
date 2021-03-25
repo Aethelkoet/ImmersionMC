@@ -11,15 +11,10 @@ import net.minecraft.enchantment.Enchantment;
 
 import net.aethelwyn.immersion.item.WoodenScimitarItem;
 import net.aethelwyn.immersion.item.StoneScimitarItem;
-import net.aethelwyn.immersion.item.StoneHookbladeItem;
 import net.aethelwyn.immersion.item.NetheriteScimitarItem;
-import net.aethelwyn.immersion.item.NetheriteHookbladeItem;
 import net.aethelwyn.immersion.item.IronScimitarItem;
-import net.aethelwyn.immersion.item.IronHookbladeItem;
 import net.aethelwyn.immersion.item.GoldenScimitarItem;
-import net.aethelwyn.immersion.item.GoldenHookbladeItem;
 import net.aethelwyn.immersion.item.DiamondScimitarItem;
-import net.aethelwyn.immersion.item.DiamondHookbladeItem;
 import net.aethelwyn.immersion.ImmersionModElements;
 
 @ImmersionModElements.ModElement.Tag
@@ -85,16 +80,6 @@ public class VenomousEnchantment extends ImmersionModElements.ModElement {
 			if (stack.getItem() == new ItemStack(DiamondScimitarItem.block, (int) (1)).getItem())
 				return true;
 			if (stack.getItem() == new ItemStack(NetheriteScimitarItem.block, (int) (1)).getItem())
-				return true;
-			if (stack.getItem() == new ItemStack(StoneHookbladeItem.block, (int) (1)).getItem())
-				return true;
-			if (stack.getItem() == new ItemStack(GoldenHookbladeItem.block, (int) (1)).getItem())
-				return true;
-			if (stack.getItem() == new ItemStack(IronHookbladeItem.block, (int) (1)).getItem())
-				return true;
-			if (stack.getItem() == new ItemStack(DiamondHookbladeItem.block, (int) (1)).getItem())
-				return true;
-			if (stack.getItem() == new ItemStack(NetheriteHookbladeItem.block, (int) (1)).getItem())
 				return true;
 			return false;
 		}

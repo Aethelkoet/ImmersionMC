@@ -9,17 +9,29 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.enchantment.EnchantmentType;
 import net.minecraft.enchantment.Enchantment;
 
+import net.aethelwyn.immersion.item.WoodenZweihanderItem;
 import net.aethelwyn.immersion.item.WoodenScimitarItem;
+import net.aethelwyn.immersion.item.WoodenLancerItem;
 import net.aethelwyn.immersion.item.WoodenHookbladeItem;
+import net.aethelwyn.immersion.item.StoneZweihanderItem;
 import net.aethelwyn.immersion.item.StoneScimitarItem;
+import net.aethelwyn.immersion.item.StoneLancerItem;
 import net.aethelwyn.immersion.item.StoneHookbladeItem;
+import net.aethelwyn.immersion.item.NetheriteZweihanderItem;
 import net.aethelwyn.immersion.item.NetheriteScimitarItem;
+import net.aethelwyn.immersion.item.NetheriteLancerItem;
 import net.aethelwyn.immersion.item.NetheriteHookbladeItem;
+import net.aethelwyn.immersion.item.IronZweihanderItem;
 import net.aethelwyn.immersion.item.IronScimitarItem;
+import net.aethelwyn.immersion.item.IronLancerItem;
 import net.aethelwyn.immersion.item.IronHookbladeItem;
+import net.aethelwyn.immersion.item.GoldenZweihanderItem;
 import net.aethelwyn.immersion.item.GoldenScimitarItem;
+import net.aethelwyn.immersion.item.GoldenLancerItem;
 import net.aethelwyn.immersion.item.GoldenHookbladeItem;
+import net.aethelwyn.immersion.item.DiamondZweihanderItem;
 import net.aethelwyn.immersion.item.DiamondScimitarItem;
+import net.aethelwyn.immersion.item.DiamondLancerItem;
 import net.aethelwyn.immersion.item.DiamondHookbladeItem;
 import net.aethelwyn.immersion.ImmersionModElements;
 
@@ -99,6 +111,30 @@ public class CurseOfWarpingEnchantment extends ImmersionModElements.ModElement {
 			if (stack.getItem() == new ItemStack(DiamondHookbladeItem.block, (int) (1)).getItem())
 				return true;
 			if (stack.getItem() == new ItemStack(NetheriteHookbladeItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(WoodenLancerItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(StoneLancerItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(GoldenLancerItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(IronLancerItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(DiamondLancerItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(NetheriteLancerItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(WoodenZweihanderItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(StoneZweihanderItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(GoldenZweihanderItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(IronZweihanderItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(DiamondZweihanderItem.block, (int) (1)).getItem())
+				return true;
+			if (stack.getItem() == new ItemStack(NetheriteZweihanderItem.block, (int) (1)).getItem())
 				return true;
 			return false;
 		}

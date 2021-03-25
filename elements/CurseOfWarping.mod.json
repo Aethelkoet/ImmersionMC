@@ -81,6 +81,42 @@
       },
       {
         "value": "CUSTOM:NetheriteHookblade"
+      },
+      {
+        "value": "CUSTOM:WoodenLancer"
+      },
+      {
+        "value": "CUSTOM:StoneLancer"
+      },
+      {
+        "value": "CUSTOM:GoldenLancer"
+      },
+      {
+        "value": "CUSTOM:IronLancer"
+      },
+      {
+        "value": "CUSTOM:DiamondLancer"
+      },
+      {
+        "value": "CUSTOM:NetheriteLancer"
+      },
+      {
+        "value": "CUSTOM:WoodenZweihander"
+      },
+      {
+        "value": "CUSTOM:StoneZweihander"
+      },
+      {
+        "value": "CUSTOM:GoldenZweihander"
+      },
+      {
+        "value": "CUSTOM:IronZweihander"
+      },
+      {
+        "value": "CUSTOM:DiamondZweihander"
+      },
+      {
+        "value": "CUSTOM:NetheriteZweihander"
       }
     ],
     "isTreasureEnchantment": false,

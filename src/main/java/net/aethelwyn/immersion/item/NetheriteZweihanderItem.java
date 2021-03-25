@@ -53,7 +53,7 @@ public class NetheriteZweihanderItem extends ImmersionModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Items.NETHERITE_INGOT, (int) (1)));
 			}
-		}, 3, -3.3f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+		}, 3, -3.4f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);

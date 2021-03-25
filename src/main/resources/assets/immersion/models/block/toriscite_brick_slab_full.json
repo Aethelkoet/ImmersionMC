@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "immersion:blocks/toriscite_bricks",
+    "top": "immersion:blocks/toriscite_bricks",
+    "side": "immersion:blocks/toriscite_bricks"
+  }
+}

@@ -19,6 +19,9 @@
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "BugFixWorkstationSlotChange"
+          },
           "name": "Slot #0",
           "x": 141,
           "y": 71

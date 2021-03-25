@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/corinth_portal",
+    "up": "immersion:blocks/corinth_portal",
+    "north": "immersion:blocks/corinth_portal",
+    "east": "immersion:blocks/corinth_portal",
+    "south": "immersion:blocks/corinth_portal",
+    "west": "immersion:blocks/corinth_portal",
+    "particle": "immersion:blocks/corinth_portal"
+  }
+}
