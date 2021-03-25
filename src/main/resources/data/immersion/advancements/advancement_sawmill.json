@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:sawmill"
+    },
+    "title": {
+      "translate": "advancements.advancement_sawmill.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_sawmill.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_sawmill": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "immersion:sawmill",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "immersion:recipe_wooden_scimitar",
+      "immersion:recipe_stone_scimitar",
+      "immersion:recipe_golden_scimitar",
+      "immersion:recipe_iron_scimitar",
+      "immersion:recipe_diamond_scimitar",
+      "immersion:upgrade_netherite_scimitar",
+      "immersion:recycle_golden_scimitar",
+      "immersion:recycle_iron_scimitar",
+      "immersion:recipe_fermenter",
+      "immersion:recipe_gunpowder_from_dust",
+      "immersion:sack",
+      "immersion:recipe_sack_from_hide",
+      "immersion:recipe_gemcutter"
+    ]
+  },
+  "parent": "immersion:logic_immersion"
+}

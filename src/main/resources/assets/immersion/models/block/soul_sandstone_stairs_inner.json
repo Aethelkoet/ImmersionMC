@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "immersion:blocks/soul_sandstone_bottom",
+    "top": "immersion:blocks/soul_sandstone_top",
+    "side": "immersion:blocks/soul_sandstone_side"
+  }
+}

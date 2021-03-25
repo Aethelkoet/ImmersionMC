@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:netherite_scimitar"
+    },
+    "title": {
+      "translate": "advancements.advancement_harbinger_of_death.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_harbinger_of_death.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "advancement_harbinger_of_death": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "immersion:logic_immersion"
+}

@@ -1,0 +1,24 @@
+{
+  "group": "wooden_lancer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "tag": "planks"
+    },
+    "4": {
+      "tag": "planks"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "immersion:wooden_lancer",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "dried_mud_brick",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "immersion:mud_brick"
+  },
+  "result": {
+    "item": "immersion:dried_mud_brick"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Zinnia"
+      },
+      {
+        "value": "CUSTOM:Dahlia"
+      },
+      {
+        "value": "CUSTOM:Viola"
+      },
+      {
+        "value": "CUSTOM:Myosotis"
+      },
+      {
+        "value": "CUSTOM:RoyalTulip"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "flowers",
+    "namespace": "minecraft"
+  }
+}

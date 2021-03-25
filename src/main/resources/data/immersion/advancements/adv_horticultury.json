@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:myosotis"
+    },
+    "title": {
+      "translate": "advancements.adv_horticultury.title"
+    },
+    "description": {
+      "translate": "advancements.adv_horticultury.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_horticultury": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "immersion:horticultury_table",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "immersion:logic_immersion"
+}

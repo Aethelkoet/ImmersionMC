@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "immersion:armour_black_cuirass_leggings"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "immersion:armour_black_netherite_cuirass_leggings"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "group": "chorus_trapdoor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:chorus_planks"
+    },
+    "1": {
+      "item": "immersion:chorus_planks"
+    },
+    "2": {
+      "item": "immersion:chorus_planks"
+    },
+    "3": {
+      "item": "immersion:chorus_planks"
+    },
+    "4": {
+      "item": "immersion:chorus_planks"
+    },
+    "5": {
+      "item": "immersion:chorus_planks"
+    }
+  },
+  "result": {
+    "item": "immersion:chorus_trapdoor",
+    "count": 2
+  }
+}

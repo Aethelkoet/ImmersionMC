@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "immersion:white_petal",
+    "immersion:light_gray_petal",
+    "immersion:gray_petal",
+    "immersion:black_petal",
+    "immersion:green_petal",
+    "immersion:lime_petal",
+    "immersion:cyan_petal",
+    "immersion:light_blue_petal",
+    "immersion:blue_petal",
+    "immersion:purple_petal",
+    "immersion:magenta_petal",
+    "immersion:pink_petal",
+    "immersion:red_petal",
+    "immersion:orange_petal",
+    "immersion:yellow_petal",
+    "immersion:brown_petal"
+  ]
+}

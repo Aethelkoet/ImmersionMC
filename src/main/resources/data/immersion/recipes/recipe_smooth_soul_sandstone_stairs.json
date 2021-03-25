@@ -1,0 +1,33 @@
+{
+  "group": "soul_sandstone_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:smooth_soul_sandstone"
+    },
+    "3": {
+      "item": "immersion:smooth_soul_sandstone"
+    },
+    "4": {
+      "item": "immersion:smooth_soul_sandstone"
+    },
+    "6": {
+      "item": "immersion:smooth_soul_sandstone"
+    },
+    "7": {
+      "item": "immersion:smooth_soul_sandstone"
+    },
+    "8": {
+      "item": "immersion:smooth_soul_sandstone"
+    }
+  },
+  "result": {
+    "item": "immersion:smooth_soul_sandstone_stairs",
+    "count": 4
+  }
+}

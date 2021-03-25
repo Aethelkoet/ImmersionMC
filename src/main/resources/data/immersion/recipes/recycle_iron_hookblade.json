@@ -1,0 +1,12 @@
+{
+  "group": "iron_hookblade",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "immersion:iron_hookblade"
+  },
+  "result": {
+    "item": "minecraft:iron_nugget"
+  }
+}

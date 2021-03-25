@@ -1,0 +1,24 @@
+{
+  "group": "stone_hookblade",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "stone_tool_materials"
+    },
+    "3": {
+      "tag": "stone_tool_materials"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "immersion:stone_hookblade",
+    "count": 1
+  }
+}

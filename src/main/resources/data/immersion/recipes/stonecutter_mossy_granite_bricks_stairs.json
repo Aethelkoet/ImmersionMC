@@ -1,0 +1,9 @@
+{
+  "group": "mossy_granite",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "immersion:mossy_granite_bricks"
+  },
+  "result": "immersion:mossy_granite_bricks_stairs"
+}

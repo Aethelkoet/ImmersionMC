@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "immersion:chorus_log",
+    "immersion:chorus_wood",
+    "immersion:stripped_chorus_log",
+    "immersion:stripped_chorus_wood"
+  ]
+}

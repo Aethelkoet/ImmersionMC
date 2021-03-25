@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "immersion:block/gemcutter_table"
+    }
+  }
+}

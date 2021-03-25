@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "immersion:block/fermenter"
+    },
+    "facing=east": {
+      "model": "immersion:block/fermenter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "immersion:block/fermenter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "immersion:block/fermenter",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "immersion:block/fermenter",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "immersion:block/fermenter",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "red_sandstone",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:red_sandstone"
+  },
+  "result": "immersion:red_sandstone_layers"
+}

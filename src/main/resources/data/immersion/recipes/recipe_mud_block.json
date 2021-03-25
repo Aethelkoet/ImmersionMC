@@ -1,0 +1,26 @@
+{
+  "group": "mud_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:mud_ball"
+    },
+    "1": {
+      "item": "immersion:mud_ball"
+    },
+    "2": {
+      "item": "immersion:mud_ball"
+    },
+    "3": {
+      "item": "immersion:mud_ball"
+    }
+  },
+  "result": {
+    "item": "immersion:mud",
+    "count": 1
+  }
+}

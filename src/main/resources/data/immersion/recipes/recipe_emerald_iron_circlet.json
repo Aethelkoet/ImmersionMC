@@ -1,0 +1,22 @@
+{
+  "group": "emerald_circlet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "immersion:cut_emerald"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "immersion:emerald_gilded_iron_circlet_helmet",
+    "count": 1
+  }
+}

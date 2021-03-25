@@ -1,0 +1,206 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBlackCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBlackCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBlackCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourRedCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourRedCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourRedCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourRedCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowCuirass.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_armour",
+    "namespace": "mod"
+  }
+}

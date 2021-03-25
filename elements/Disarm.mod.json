@@ -1,0 +1,36 @@
+{
+  "_fv": 17,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Disarm",
+    "type": "WEAPON",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:WoodenHookblade"
+      },
+      {
+        "value": "CUSTOM:StoneHookblade"
+      },
+      {
+        "value": "CUSTOM:GoldenHookblade"
+      },
+      {
+        "value": "CUSTOM:IronHookblade"
+      },
+      {
+        "value": "CUSTOM:DiamondHookblade"
+      },
+      {
+        "value": "CUSTOM:NetheriteHookblade"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "chorus_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:chorus_planks"
+    },
+    "3": {
+      "item": "immersion:chorus_planks"
+    },
+    "4": {
+      "item": "immersion:chorus_planks"
+    },
+    "6": {
+      "item": "immersion:chorus_planks"
+    },
+    "7": {
+      "item": "immersion:chorus_planks"
+    },
+    "8": {
+      "item": "immersion:chorus_planks"
+    }
+  },
+  "result": {
+    "item": "immersion:chorus_stairs",
+    "count": 4
+  }
+}

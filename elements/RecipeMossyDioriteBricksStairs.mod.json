@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "mossy_diorite_bricks_stairs",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MossyDioriteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossyDioriteBricks"
+      },
+      {
+        "value": "CUSTOM:MossyDioriteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossyDioriteBricks"
+      },
+      {
+        "value": "CUSTOM:MossyDioriteBricks"
+      },
+      {
+        "value": "CUSTOM:MossyDioriteBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MossyDioriteBricksStairs"
+    },
+    "name": "recipe_mossy_diorite_bricks_stairs",
+    "namespace": "mod"
+  }
+}

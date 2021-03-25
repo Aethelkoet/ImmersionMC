@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "immersion:blocks/diorite_bricks",
+    "particle": "immersion:blocks/diorite_bricks"
+  }
+}

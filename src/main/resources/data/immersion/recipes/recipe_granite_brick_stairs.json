@@ -1,0 +1,33 @@
+{
+  "group": "stone_brick_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:granite_bricks"
+    },
+    "3": {
+      "item": "immersion:granite_bricks"
+    },
+    "4": {
+      "item": "immersion:granite_bricks"
+    },
+    "6": {
+      "item": "immersion:granite_bricks"
+    },
+    "7": {
+      "item": "immersion:granite_bricks"
+    },
+    "8": {
+      "item": "immersion:granite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:granite_brick_stairs",
+    "count": 4
+  }
+}

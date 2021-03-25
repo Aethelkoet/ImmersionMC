@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/horticultury_table_bottom",
+    "up": "immersion:blocks/horticultury_table_top",
+    "north": "immersion:blocks/horticultury_table_side",
+    "east": "immersion:blocks/horticultury_table_side",
+    "south": "immersion:blocks/horticultury_table_side",
+    "west": "immersion:blocks/horticultury_table_side",
+    "particle": "immersion:blocks/horticultury_table_bottom"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "polished_sandstone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cut_red_sandstone"
+    },
+    "1": {
+      "item": "minecraft:cut_red_sandstone"
+    },
+    "2": {
+      "item": "minecraft:cut_red_sandstone"
+    },
+    "3": {
+      "item": "minecraft:cut_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "immersion:polished_red_sandstone",
+    "count": 4
+  }
+}

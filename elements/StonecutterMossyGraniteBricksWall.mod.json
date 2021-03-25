@@ -1,0 +1,20 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "mossy_diorite",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:MossyGraniteBricks"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:MossyGraniteBricksWall"
+    },
+    "name": "stonecutter_mossy_granite_bricks_wall",
+    "namespace": "mod"
+  }
+}

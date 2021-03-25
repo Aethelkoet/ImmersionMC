@@ -1,0 +1,345 @@
+{
+  "_fv": 17,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 213,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot1"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 213,
+          "y": 52
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 231,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot2"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 231,
+          "y": 52
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 249,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot3"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 249,
+          "y": 52
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 267,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot4"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 267,
+          "y": 52
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 213,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot5"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 213,
+          "y": 70
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #6",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot6"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 231,
+          "y": 70
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 249,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot7"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 249,
+          "y": 70
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #8",
+          "x": 267,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot8"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 267,
+          "y": 70
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #9",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot9"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 213,
+          "y": 88
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 10,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #10",
+          "x": 231,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot10"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 231,
+          "y": 88
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 11,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #11",
+          "x": 249,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot11"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 249,
+          "y": 88
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 12,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #12",
+          "x": 267,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCSawmillGiveSlot12"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 267,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Sawmill",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Sawmill",
+          "x": 132,
+          "y": 44
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "GUISolveDupeBug"
+    }
+  }
+}

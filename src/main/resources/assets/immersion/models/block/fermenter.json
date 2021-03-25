@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/fermenter_bottom",
+    "up": "immersion:blocks/fermenter_top",
+    "north": "immersion:blocks/fermenter_side",
+    "east": "immersion:blocks/fermenter_side",
+    "south": "immersion:blocks/fermenter_side",
+    "west": "immersion:blocks/fermenter_side",
+    "particle": "immersion:blocks/fermenter_bottom"
+  }
+}

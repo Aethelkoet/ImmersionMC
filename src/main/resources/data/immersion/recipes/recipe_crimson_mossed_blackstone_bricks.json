@@ -1,0 +1,19 @@
+{
+  "group": "mossy_stone_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "1": {
+      "item": "minecraft:weeping_vines"
+    }
+  },
+  "result": {
+    "item": "immersion:crimson_mossed_blackstone_bricks",
+    "count": 1
+  }
+}

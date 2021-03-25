@@ -1,0 +1,9 @@
+{
+  "group": "netherrack",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "immersion:popped_netherrack"
+  },
+  "result": "immersion:polished_netherrack"
+}

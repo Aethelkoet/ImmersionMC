@@ -1,0 +1,36 @@
+{
+  "_fv": 17,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Charge",
+    "type": "WEAPON",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:WoodenLancer"
+      },
+      {
+        "value": "CUSTOM:StoneLancer"
+      },
+      {
+        "value": "CUSTOM:GoldenLancer"
+      },
+      {
+        "value": "CUSTOM:IronLancer"
+      },
+      {
+        "value": "CUSTOM:DiamondLancer"
+      },
+      {
+        "value": "CUSTOM:NetheriteLancer"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

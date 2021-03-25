@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "horticultury_table",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:wooden_slabs"
+      },
+      {
+        "value": "Blocks.DIRT"
+      },
+      {
+        "value": "TAG:wooden_slabs"
+      },
+      {
+        "value": "TAG:planks"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "TAG:planks"
+      },
+      {
+        "value": "TAG:planks"
+      },
+      {
+        "value": "TAG:logs"
+      },
+      {
+        "value": "TAG:planks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HorticulturyTable"
+    },
+    "name": "recipe_horticultury_table",
+    "namespace": "mod"
+  }
+}

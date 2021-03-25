@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "sawmill",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:planks"
+      },
+      {
+        "value": "TAG:wooden_slabs"
+      },
+      {
+        "value": "TAG:planks"
+      },
+      {
+        "value": "TAG:planks"
+      },
+      {
+        "value": "TAG:wooden_slabs"
+      },
+      {
+        "value": "TAG:planks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Sawmill"
+    },
+    "name": "recipe_sawmill",
+    "namespace": "mod"
+  }
+}

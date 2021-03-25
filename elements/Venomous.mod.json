@@ -1,0 +1,79 @@
+{
+  "_fv": 17,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Venomous",
+    "type": "WEAPON",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "SHARPNESS"
+      },
+      {
+        "value": "SMITE"
+      },
+      {
+        "value": "BANE_OF_ARTHROPODS"
+      },
+      {
+        "value": "KNOCKBACK"
+      },
+      {
+        "value": "LOOTING"
+      },
+      {
+        "value": "SWEEPING"
+      },
+      {
+        "value": "UNBREAKING"
+      },
+      {
+        "value": "MENDING"
+      },
+      {
+        "value": "VANISHING_CURSE"
+      }
+    ],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:WoodenScimitar"
+      },
+      {
+        "value": "CUSTOM:StoneScimitar"
+      },
+      {
+        "value": "CUSTOM:GoldenScimitar"
+      },
+      {
+        "value": "CUSTOM:IronScimitar"
+      },
+      {
+        "value": "CUSTOM:DiamondScimitar"
+      },
+      {
+        "value": "CUSTOM:NetheriteScimitar"
+      },
+      {
+        "value": "CUSTOM:StoneHookblade"
+      },
+      {
+        "value": "CUSTOM:GoldenHookblade"
+      },
+      {
+        "value": "CUSTOM:IronHookblade"
+      },
+      {
+        "value": "CUSTOM:DiamondHookblade"
+      },
+      {
+        "value": "CUSTOM:NetheriteHookblade"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

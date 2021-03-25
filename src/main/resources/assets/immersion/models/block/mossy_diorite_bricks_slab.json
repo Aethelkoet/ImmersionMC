@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "immersion:blocks/mossy_diorite_bricks",
+    "top": "immersion:blocks/mossy_diorite_bricks",
+    "side": "immersion:blocks/mossy_diorite_bricks"
+  }
+}

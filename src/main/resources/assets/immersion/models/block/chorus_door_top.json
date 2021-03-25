@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "immersion:blocks/chorus_door_bottom",
+    "top": "immersion:blocks/chorus_door_top"
+  }
+}

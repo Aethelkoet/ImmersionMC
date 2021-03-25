@@ -1,0 +1,24 @@
+{
+  "group": "stone_zweihander",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "tag": "stone_tool_materials"
+    },
+    "4": {
+      "tag": "stone_tool_materials"
+    },
+    "8": {
+      "item": "immersion:stone_lancer"
+    }
+  },
+  "result": {
+    "item": "immersion:stone_zweihander",
+    "count": 1
+  }
+}

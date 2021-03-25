@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "mossy_andesite_bricks_stairs",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MossyAndesiteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossyAndesiteBricks"
+      },
+      {
+        "value": "CUSTOM:MossyAndesiteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossyAndesiteBricks"
+      },
+      {
+        "value": "CUSTOM:MossyAndesiteBricks"
+      },
+      {
+        "value": "CUSTOM:MossyAndesiteBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MossyAndesiteBricksStairs"
+    },
+    "name": "recipe_mossy_andesite_bricks_stairs",
+    "namespace": "mod"
+  }
+}

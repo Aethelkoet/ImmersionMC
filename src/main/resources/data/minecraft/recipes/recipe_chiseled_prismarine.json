@@ -1,0 +1,20 @@
+{
+  "group": "prismarine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:polished_prismarine"
+    },
+    "1": {
+      "item": "immersion:polished_prismarine"
+    }
+  },
+  "result": {
+    "item": "immersion:chiseled_prismarine",
+    "count": 2
+  }
+}

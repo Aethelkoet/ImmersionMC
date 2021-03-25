@@ -1,0 +1,62 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourRedCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowCuirass.helmet"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_helmets",
+    "namespace": "mod"
+  }
+}

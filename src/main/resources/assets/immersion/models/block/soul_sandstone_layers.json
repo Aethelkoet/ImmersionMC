@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/polished_soul_sandstone",
+    "up": "immersion:blocks/polished_soul_sandstone",
+    "north": "immersion:blocks/soul_sandstone_layers",
+    "east": "immersion:blocks/soul_sandstone_layers",
+    "south": "immersion:blocks/soul_sandstone_layers",
+    "west": "immersion:blocks/soul_sandstone_layers",
+    "particle": "immersion:blocks/polished_soul_sandstone"
+  }
+}

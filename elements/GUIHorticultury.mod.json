@@ -1,0 +1,134 @@
+{
+  "_fv": 17,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Horticultury Table",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Horticultury Table",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 240,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 168,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 240,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCHorticGiveSlot1"
+          },
+          "width": 20,
+          "height": 20,
+          "name": " ",
+          "x": 167,
+          "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCHorticGiveSlot2"
+          },
+          "width": 20,
+          "height": 20,
+          "name": " ",
+          "x": 203,
+          "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCHorticGiveSlot3"
+          },
+          "width": 20,
+          "height": 20,
+          "name": " ",
+          "x": 239,
+          "y": 88
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "GUISolveDupeBug"
+    }
+  }
+}

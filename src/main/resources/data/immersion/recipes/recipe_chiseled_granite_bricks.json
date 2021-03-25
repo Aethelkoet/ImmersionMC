@@ -1,0 +1,26 @@
+{
+  "group": "chiseled_stone_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:granite_bricks"
+    },
+    "1": {
+      "item": "immersion:granite_bricks"
+    },
+    "2": {
+      "item": "immersion:granite_bricks"
+    },
+    "3": {
+      "item": "immersion:granite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:chiseled_granite_bricks",
+    "count": 4
+  }
+}

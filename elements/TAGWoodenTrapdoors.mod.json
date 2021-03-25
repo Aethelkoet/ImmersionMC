@@ -1,0 +1,17 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ChorusTrapdoor"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "wooden_trapdoors",
+    "namespace": "minecraft"
+  }
+}

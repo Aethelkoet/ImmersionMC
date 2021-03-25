@@ -1,0 +1,62 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourRedCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowCuirass.legs"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_leggings",
+    "namespace": "mod"
+  }
+}

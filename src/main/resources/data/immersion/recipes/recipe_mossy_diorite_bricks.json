@@ -1,0 +1,19 @@
+{
+  "group": "mossy_stone_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:diorite_bricks"
+    },
+    "1": {
+      "item": "minecraft:vine"
+    }
+  },
+  "result": {
+    "item": "immersion:mossy_diorite_bricks",
+    "count": 1
+  }
+}

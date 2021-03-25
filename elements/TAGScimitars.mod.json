@@ -1,0 +1,32 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WoodenScimitar"
+      },
+      {
+        "value": "CUSTOM:StoneScimitar"
+      },
+      {
+        "value": "CUSTOM:GoldenScimitar"
+      },
+      {
+        "value": "CUSTOM:IronScimitar"
+      },
+      {
+        "value": "CUSTOM:DiamondScimitar"
+      },
+      {
+        "value": "CUSTOM:NetheriteScimitar"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "scimitars",
+    "namespace": "mod"
+  }
+}

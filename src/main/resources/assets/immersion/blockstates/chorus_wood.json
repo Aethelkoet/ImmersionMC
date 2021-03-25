@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "immersion:block/chorus_wood"
+    },
+    "facing=north": {
+      "model": "immersion:block/chorus_wood"
+    },
+    "facing=east": {
+      "model": "immersion:block/chorus_wood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "immersion:block/chorus_wood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "immersion:block/chorus_wood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "immersion:block/chorus_wood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

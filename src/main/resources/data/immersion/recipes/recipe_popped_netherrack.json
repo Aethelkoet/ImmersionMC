@@ -1,0 +1,12 @@
+{
+  "group": "popped_netherrack",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "minecraft:netherrack"
+  },
+  "result": {
+    "item": "immersion:popped_netherrack"
+  }
+}

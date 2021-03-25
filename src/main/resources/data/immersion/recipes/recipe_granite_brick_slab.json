@@ -1,0 +1,22 @@
+{
+  "group": "stone_brick_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:granite_bricks"
+    },
+    "1": {
+      "item": "immersion:granite_bricks"
+    },
+    "2": {
+      "item": "immersion:granite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:granite_brick_slab",
+    "count": 6
+  }
+}

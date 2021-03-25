@@ -1,0 +1,8 @@
+{
+  "parent": "immersion:custom/gemcutter",
+  "textures": {
+    "all": "immersion:blocks/gemcutter_table",
+    "particle": "immersion:blocks/gemcutter_table",
+    "0": "immersion:blocks/gemcutter_table"
+  }
+}

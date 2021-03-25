@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/mud_bricks",
+    "up": "immersion:blocks/mud_bricks",
+    "north": "immersion:blocks/mud_bricks",
+    "east": "immersion:blocks/mud_bricks",
+    "south": "immersion:blocks/mud_bricks",
+    "west": "immersion:blocks/mud_bricks",
+    "particle": "immersion:blocks/mud_bricks"
+  }
+}

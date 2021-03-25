@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "stone_bricks",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AndesiteBricks"
+    },
+    "name": "andesite_bricks",
+    "namespace": "minecraft"
+  }
+}

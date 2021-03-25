@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/chorus_planks",
+    "up": "immersion:blocks/chorus_planks",
+    "north": "immersion:blocks/chorus_planks",
+    "east": "immersion:blocks/chorus_planks",
+    "south": "immersion:blocks/chorus_planks",
+    "west": "immersion:blocks/chorus_planks",
+    "particle": "immersion:blocks/chorus_planks"
+  }
+}

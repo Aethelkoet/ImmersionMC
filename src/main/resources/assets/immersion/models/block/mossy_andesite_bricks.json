@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/mossy_andesite_bricks",
+    "up": "immersion:blocks/mossy_andesite_bricks",
+    "north": "immersion:blocks/mossy_andesite_bricks",
+    "east": "immersion:blocks/mossy_andesite_bricks",
+    "south": "immersion:blocks/mossy_andesite_bricks",
+    "west": "immersion:blocks/mossy_andesite_bricks",
+    "particle": "immersion:blocks/mossy_andesite_bricks"
+  }
+}

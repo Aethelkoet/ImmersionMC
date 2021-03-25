@@ -1,0 +1,62 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourRedNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowNetheriteCuirass.body"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_netherite_chestplates",
+    "namespace": "mod"
+  }
+}

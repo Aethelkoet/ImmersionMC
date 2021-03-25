@@ -1,0 +1,20 @@
+{
+  "group": "sandstone_layers",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:polished_red_sandstone"
+    },
+    "1": {
+      "item": "immersion:polished_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "immersion:red_sandstone_layers",
+    "count": 2
+  }
+}

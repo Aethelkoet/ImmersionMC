@@ -1,0 +1,62 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourRedCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowCuirass.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_boots",
+    "namespace": "mod"
+  }
+}

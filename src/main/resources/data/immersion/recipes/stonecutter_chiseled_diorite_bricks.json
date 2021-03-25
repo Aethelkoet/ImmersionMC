@@ -1,0 +1,9 @@
+{
+  "group": "diorite",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:diorite"
+  },
+  "result": "immersion:chiseled_diorite_bricks"
+}

@@ -1,0 +1,16 @@
+{
+  "group": "chorus_log",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chorus_flower"
+    }
+  },
+  "result": {
+    "item": "immersion:chorus_log",
+    "count": 1
+  }
+}

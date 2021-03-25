@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="immersion"
+version="0.001.0013"
+displayName="Immersion"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Aethelwyn"
+description='''
+Immersion is meant to be a vanilla+ mod, adding features in a way that feels natural & adjusting things until they fit just right.
+'''
+
+[[dependencies.immersion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

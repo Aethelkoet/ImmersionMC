@@ -1,0 +1,24 @@
+{
+  "group": "diamond_zweihander",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "8": {
+      "item": "immersion:diamond_lancer"
+    }
+  },
+  "result": {
+    "item": "immersion:diamond_zweihander",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "polished_netherrack",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:popped_netherrack"
+    },
+    "1": {
+      "item": "immersion:popped_netherrack"
+    },
+    "2": {
+      "item": "immersion:popped_netherrack"
+    },
+    "3": {
+      "item": "immersion:popped_netherrack"
+    }
+  },
+  "result": {
+    "item": "immersion:polished_netherrack",
+    "count": 4
+  }
+}

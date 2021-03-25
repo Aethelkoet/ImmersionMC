@@ -1,0 +1,36 @@
+{
+  "group": "sawmill",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "tag": "planks"
+    },
+    "4": {
+      "tag": "wooden_slabs"
+    },
+    "5": {
+      "tag": "planks"
+    },
+    "6": {
+      "tag": "planks"
+    },
+    "7": {
+      "tag": "wooden_slabs"
+    },
+    "8": {
+      "tag": "planks"
+    }
+  },
+  "result": {
+    "item": "immersion:sawmill",
+    "count": 1
+  }
+}

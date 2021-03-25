@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/granite_bricks",
+    "up": "immersion:blocks/granite_bricks",
+    "north": "immersion:blocks/granite_bricks",
+    "east": "immersion:blocks/granite_bricks",
+    "south": "immersion:blocks/granite_bricks",
+    "west": "immersion:blocks/granite_bricks",
+    "particle": "immersion:blocks/granite_bricks"
+  }
+}

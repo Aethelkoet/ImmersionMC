@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/niter_ore",
+    "up": "immersion:blocks/niter_ore",
+    "north": "immersion:blocks/niter_ore",
+    "east": "immersion:blocks/niter_ore",
+    "south": "immersion:blocks/niter_ore",
+    "west": "immersion:blocks/niter_ore",
+    "particle": "immersion:blocks/niter_ore"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "amethyst_circlet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "immersion:cut_amethyst"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "immersion:amethyst_guilded_iron_circlet_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "immersion:custom/grape_gs5",
+  "textures": {
+    "all": "immersion:blocks/grape_leaves_mature",
+    "particle": "immersion:blocks/grape_leaves_mature",
+    "0": "immersion:blocks/grape_leaves_mature",
+    "1": "immersion:blocks/rope"
+  }
+}

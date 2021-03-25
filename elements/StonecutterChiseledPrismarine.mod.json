@@ -1,0 +1,20 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "prismarine",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "Blocks.PRISMARINE#0"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:ChiseledPrismarine"
+    },
+    "name": "stonecutter_chiseled_prismarine",
+    "namespace": "mod"
+  }
+}

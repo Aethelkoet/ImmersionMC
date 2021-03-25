@@ -1,0 +1,25 @@
+{
+  "_fv": 17,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Sitars & Scimitars!",
+    "achievementDescription": "Create a Scimitar!",
+    "achievementIcon": {
+      "value": "CUSTOM:IronScimitar"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 2,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:LOGICImmersion"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"36\" y=\"54\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

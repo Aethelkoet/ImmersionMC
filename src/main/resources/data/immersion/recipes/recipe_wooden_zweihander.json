@@ -1,0 +1,24 @@
+{
+  "group": "wooden_zweihander",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "tag": "planks"
+    },
+    "4": {
+      "tag": "planks"
+    },
+    "8": {
+      "item": "immersion:wooden_lancer"
+    }
+  },
+  "result": {
+    "item": "immersion:wooden_zweihander",
+    "count": 1
+  }
+}

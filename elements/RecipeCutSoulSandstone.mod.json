@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "cut_soul_sandstone",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SoulSandstone"
+      },
+      {
+        "value": "CUSTOM:SoulSandstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SoulSandstone"
+      },
+      {
+        "value": "CUSTOM:SoulSandstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CutSoulSandstone"
+    },
+    "name": "recipe_cut_soul_sandstone",
+    "namespace": "mod"
+  }
+}

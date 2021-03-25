@@ -1,0 +1,9 @@
+{
+  "group": "andesite",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:andesite"
+  },
+  "result": "immersion:andesite_brick_slab"
+}

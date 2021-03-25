@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "logic_cut_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "immersion:cut_emerald",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "immersion:advancement_gemcutter"
+}

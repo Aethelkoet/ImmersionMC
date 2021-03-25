@@ -1,0 +1,95 @@
+{
+  "_fv": 17,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Gemcutter",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Gemcutter",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 204,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 195,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCGemcutterGiveSlot1"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 194,
+          "y": 88
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " ",
+          "onClick": {
+            "name": "PROCGemcutterGiveSlot2"
+          },
+          "width": 19,
+          "height": 20,
+          "name": " ",
+          "x": 212,
+          "y": 88
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "GUISolveDupeBug"
+    }
+  }
+}

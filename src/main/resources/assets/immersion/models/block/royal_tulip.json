@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "immersion:blocks/royal_tulip",
+    "particle": "immersion:blocks/royal_tulip"
+  }
+}

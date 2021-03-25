@@ -1,0 +1,24 @@
+{
+  "group": "scimitar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 ",
+    " 5"
+  ],
+  "key": {
+    "1": {
+      "tag": "stone_tool_materials"
+    },
+    "2": {
+      "tag": "stone_tool_materials"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "immersion:stone_scimitar",
+    "count": 1
+  }
+}

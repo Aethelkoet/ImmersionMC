@@ -1,0 +1,206 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBlackNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBlackNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBlackNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourRedNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourRedNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourRedNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourRedNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowNetheriteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowNetheriteCuirass.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_netherite_armour",
+    "namespace": "mod"
+  }
+}

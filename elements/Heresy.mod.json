@@ -1,0 +1,72 @@
+{
+  "_fv": 17,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Heresy",
+    "type": "WEAPON",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "CUSTOM:Venomous"
+      },
+      {
+        "value": "CUSTOM:Stunning"
+      },
+      {
+        "value": "CUSTOM:WitheredBite"
+      },
+      {
+        "value": "CUSTOM:CurseOfWarping"
+      },
+      {
+        "value": "CUSTOM:Disarm"
+      },
+      {
+        "value": "CUSTOM:Charge"
+      },
+      {
+        "value": "CUSTOM:Accustomed"
+      },
+      {
+        "value": "KNOCKBACK"
+      },
+      {
+        "value": "FIRE_ASPECT"
+      },
+      {
+        "value": "LOOTING"
+      },
+      {
+        "value": "SWEEPING"
+      },
+      {
+        "value": "EFFICIENCY"
+      },
+      {
+        "value": "LOYALTY"
+      },
+      {
+        "value": "IMPALING"
+      },
+      {
+        "value": "RIPTIDE"
+      },
+      {
+        "value": "CHANNELING"
+      },
+      {
+        "value": "MENDING"
+      },
+      {
+        "value": "VANISHING_CURSE"
+      }
+    ],
+    "compatibleItems": [],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "netherite_cuirass",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ArmourLimeCuirass.body"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.NETHERITE_INGOT"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:ArmourLimeNetheriteCuirass.body"
+    },
+    "name": "upgrade_netherite_lime_cuirass_chestplate",
+    "namespace": "mod"
+  }
+}

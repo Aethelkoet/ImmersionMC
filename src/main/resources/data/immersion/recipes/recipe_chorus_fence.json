@@ -1,0 +1,32 @@
+{
+  "group": "chorus_fences",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:chorus_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "immersion:chorus_planks"
+    },
+    "3": {
+      "item": "immersion:chorus_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "immersion:chorus_planks"
+    }
+  },
+  "result": {
+    "item": "immersion:chorus_fence",
+    "count": 3
+  }
+}

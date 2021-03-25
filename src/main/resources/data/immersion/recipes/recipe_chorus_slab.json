@@ -1,0 +1,22 @@
+{
+  "group": "chorus_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:chorus_planks"
+    },
+    "1": {
+      "item": "immersion:chorus_planks"
+    },
+    "2": {
+      "item": "immersion:chorus_planks"
+    }
+  },
+  "result": {
+    "item": "immersion:chorus_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "immersion:wooden_scimitar",
+    "immersion:stone_scimitar",
+    "immersion:golden_scimitar",
+    "immersion:iron_scimitar",
+    "immersion:diamond_scimitar",
+    "immersion:netherite_scimitar"
+  ]
+}

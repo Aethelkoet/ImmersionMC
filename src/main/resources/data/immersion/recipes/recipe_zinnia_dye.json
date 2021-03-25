@@ -1,0 +1,13 @@
+{
+  "group": "lime_dye",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersion:zinnia"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_dye",
+    "count": 2
+  }
+}

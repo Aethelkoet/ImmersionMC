@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "grape_leaves_mature",
+        "1": "rope"
+      },
+      "name": "default"
+    }
+  }
+}

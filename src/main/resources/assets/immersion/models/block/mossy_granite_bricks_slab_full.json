@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "immersion:blocks/mossy_granite_bricks",
+    "top": "immersion:blocks/mossy_granite_bricks",
+    "side": "immersion:blocks/mossy_granite_bricks"
+  }
+}

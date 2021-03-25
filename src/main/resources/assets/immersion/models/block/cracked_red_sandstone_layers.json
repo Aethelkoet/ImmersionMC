@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/polished_red_sandstone",
+    "up": "immersion:blocks/polished_red_sandstone",
+    "north": "immersion:blocks/cracked_red_sandstone",
+    "east": "immersion:blocks/cracked_red_sandstone",
+    "south": "immersion:blocks/cracked_red_sandstone",
+    "west": "immersion:blocks/cracked_red_sandstone",
+    "particle": "immersion:blocks/polished_red_sandstone"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "group": "wooden_hookblade",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "planks"
+    },
+    "3": {
+      "tag": "planks"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "immersion:wooden_hookblade",
+    "count": 1
+  }
+}

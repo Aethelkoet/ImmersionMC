@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "immersion:blocks/granite_bricks",
+    "top": "immersion:blocks/granite_bricks",
+    "side": "immersion:blocks/granite_bricks"
+  }
+}

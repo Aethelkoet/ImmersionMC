@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "immersion:blocks/mud_bricks",
+    "top": "immersion:blocks/mud_bricks",
+    "side": "immersion:blocks/mud_bricks"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "mossy_andesite_bricks_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:mossy_andesite_bricks"
+    },
+    "3": {
+      "item": "immersion:mossy_andesite_bricks"
+    },
+    "4": {
+      "item": "immersion:mossy_andesite_bricks"
+    },
+    "6": {
+      "item": "immersion:mossy_andesite_bricks"
+    },
+    "7": {
+      "item": "immersion:mossy_andesite_bricks"
+    },
+    "8": {
+      "item": "immersion:mossy_andesite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:mossy_andesite_bricks_stairs",
+    "count": 4
+  }
+}

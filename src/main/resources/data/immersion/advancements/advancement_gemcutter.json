@@ -1,0 +1,123 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:gemcutter_table"
+    },
+    "title": {
+      "translate": "advancements.advancement_gemcutter.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_gemcutter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_gemcutter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "immersion:gemcutter_table",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "minecraft:andesite_bricks",
+      "immersion:andesite_brick_stairs",
+      "immersion:andesite_brick_slab",
+      "immersion:andesite_brick_wall",
+      "immersion:chiseled_andesite_bricks",
+      "immersion:mossy_andesite_bricks",
+      "immersion:cracked_andesite_bricks",
+      "minecraft:recipe_diorite_bricks",
+      "immersion:recipe_diorite_brick_stairs",
+      "immersion:recipe_diorite_brick_slab",
+      "immersion:recipe_diorite_brick_wall",
+      "immersion:recipe_chiseled_diorite_bricks",
+      "immersion:recipe_mossy_diorite_bricks",
+      "immersion:recipe_cracked_diorite_bricks",
+      "minecraft:recipe_granite_bricks",
+      "immersion:recipe_granite_brick_stairs",
+      "immersion:recipe_granite_brick_slab",
+      "immersion:recipe_granite_brick_wall",
+      "immersion:recipe_chiseled_granite_bricks",
+      "immersion:recipe_mossy_granite_bricks",
+      "immersion:recipe_cracked_granite_bricks",
+      "immersion:recipe_warp_mossed_blackstone_bricks",
+      "immersion:recipe_crimson_mossed_blackstone_bricks",
+      "minecraft:recipe_polished_prismarine",
+      "minecraft:recipe_smooth_prismarine",
+      "minecraft:recipe_chiseled_prismarine",
+      "minecraft:recipe_polished_sandstone",
+      "minecraft:recipe_polished_red_sandstone",
+      "minecraft:recipe_sandstone_layers",
+      "minecraft:recipe_red_sandstone_layers",
+      "immersion:recipe_cracked_sandstone_layers",
+      "immersion:recipe_cracked_red_sandstone_layers",
+      "immersion:recipe_popped_netherrack",
+      "minecraft:recipe_polished_netherrack",
+      "immersion:stonecutter_andesite_bricks",
+      "immersion:stonecutter_andesite_brick_stairs",
+      "immersion:stonecutter_andesite_brick_slab",
+      "immersion:stonecutter_andesite_brick_wall",
+      "immersion:stonecutter_chiseled_andesite_bricks",
+      "immersion:stonecutter_diorite_bricks",
+      "immersion:stonecutter_diorite_brick_stairs",
+      "immersion:stonecutter_diorite_brick_slab",
+      "immersion:stonecutter_diorite_brick_wall",
+      "immersion:stonecutter_chiseled_diorite_bricks",
+      "immersion:stonecutter_granite_bricks",
+      "immersion:stonecutter_granite_brick_stairs",
+      "immersion:stonecutter_granite_brick_slab",
+      "immersion:stonecutter_granite_brick_wall",
+      "immersion:stonecutter_chiseled_granite_bricks",
+      "immersion:stonecutter_smooth_prismarine",
+      "immersion:stonecutter_polished_prismarine",
+      "immersion:stonecutter_chiseled_prismarine",
+      "immersion:stonecutter_polished_sandstone",
+      "immersion:stonecutter_sandstone_layers",
+      "immersion:stonecutter_polished_red_sandstone",
+      "immersion:stonecutter_red_sandstone_layers",
+      "immersion:stonecutter_smooth_netherrack",
+      "immersion:stonecutter_polished_netherrack",
+      "immersion:recipe_zinnia_dye",
+      "immersion:recipe_dahlia_dye",
+      "immersion:recipe_viola_dye",
+      "immersion:stonecutter_chiseled_soul_sandstone",
+      "immersion:stonecutter_cut_soul_sandstone",
+      "immersion:stonecutter_smooth_soul_sandstone",
+      "immersion:stonecutter_soul_sandstone_layers",
+      "immersion:stonecutter_polished_soul_sandstone",
+      "immersion:recipe_cracked_soul_sandstone_layers",
+      "immersion:recipe_soul_sandstone",
+      "immersion:recipe_cut_soul_sandstone",
+      "immersion:recipe_polished_soul_sandstone",
+      "immersion:recipe_soul_sandstone_layers",
+      "immersion:recipe_soul_sandstone_stairs",
+      "immersion:recipe_soul_sandstone_slab",
+      "immersion:recipe_soul_sandstone_wall",
+      "immersion:recipe_smooth_soul_sandstone_slab",
+      "immersion:recipe_smooth_soul_sandstone_stairs",
+      "immersion:recipe_cut_soul_sandstone_slab",
+      "immersion:stonecutter_soul_sandstone_slab",
+      "immersion:stonecutter_soul_sandstone_stairs",
+      "immersion:stonecutter_soul_sandstone_wall",
+      "immersion:stonecutter_cut_soul_sandstone_slab",
+      "immersion:stonecutter_smooth_soul_sandstone_slab",
+      "immersion:stonecutter_smooth_soul_sandstone_stairs",
+      "immersion:recipe_soul_sandstone_from_soil"
+    ]
+  },
+  "parent": "immersion:advancement_sawmill"
+}

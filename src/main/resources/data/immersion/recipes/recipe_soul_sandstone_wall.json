@@ -1,0 +1,32 @@
+{
+  "group": "soul_sandstone_wall",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:soul_sandstone"
+    },
+    "1": {
+      "item": "immersion:soul_sandstone"
+    },
+    "2": {
+      "item": "immersion:soul_sandstone"
+    },
+    "3": {
+      "item": "immersion:soul_sandstone"
+    },
+    "4": {
+      "item": "immersion:soul_sandstone"
+    },
+    "5": {
+      "item": "immersion:soul_sandstone"
+    }
+  },
+  "result": {
+    "item": "immersion:soul_sandstone_wall",
+    "count": 6
+  }
+}

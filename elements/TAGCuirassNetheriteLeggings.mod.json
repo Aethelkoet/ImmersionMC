@@ -1,0 +1,62 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourRedNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteNetheriteCuirass.legs"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowNetheriteCuirass.legs"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_netherite_leggings",
+    "namespace": "mod"
+  }
+}

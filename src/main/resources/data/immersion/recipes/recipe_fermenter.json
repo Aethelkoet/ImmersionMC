@@ -1,0 +1,42 @@
+{
+  "group": "fermenter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "planks"
+    },
+    "1": {
+      "item": "minecraft:iron_nugget"
+    },
+    "2": {
+      "tag": "planks"
+    },
+    "3": {
+      "tag": "planks"
+    },
+    "4": {
+      "item": "minecraft:glass_bottle"
+    },
+    "5": {
+      "tag": "planks"
+    },
+    "6": {
+      "tag": "planks"
+    },
+    "7": {
+      "tag": "wooden_slabs"
+    },
+    "8": {
+      "tag": "planks"
+    }
+  },
+  "result": {
+    "item": "immersion:fermenter",
+    "count": 1
+  }
+}

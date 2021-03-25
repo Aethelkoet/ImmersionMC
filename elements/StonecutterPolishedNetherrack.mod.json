@@ -1,0 +1,20 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "netherrack",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:PoppedNetherrack"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:PolishedNetherrack"
+    },
+    "name": "stonecutter_polished_netherrack",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 17,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Accustomed",
+    "type": "WEAPON",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:WoodenZweihander"
+      },
+      {
+        "value": "CUSTOM:StoneZweihander"
+      },
+      {
+        "value": "CUSTOM:GoldenZweihander"
+      },
+      {
+        "value": "CUSTOM:IronZweihander"
+      },
+      {
+        "value": "CUSTOM:DiamondZweihander"
+      },
+      {
+        "value": "CUSTOM:NetheriteZweihander"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

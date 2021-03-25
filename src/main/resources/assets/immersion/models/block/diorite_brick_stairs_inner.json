@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "immersion:blocks/diorite_bricks",
+    "top": "immersion:blocks/diorite_bricks",
+    "side": "immersion:blocks/diorite_bricks"
+  }
+}

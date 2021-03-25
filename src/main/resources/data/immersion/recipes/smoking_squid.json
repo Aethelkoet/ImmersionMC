@@ -1,0 +1,12 @@
+{
+  "group": "squid",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "immersion:raw_squid"
+  },
+  "result": {
+    "item": "immersion:cooked_squid"
+  }
+}

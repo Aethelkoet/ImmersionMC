@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/popped_netherrack",
+    "up": "immersion:blocks/popped_netherrack",
+    "north": "immersion:blocks/popped_netherrack",
+    "east": "immersion:blocks/popped_netherrack",
+    "south": "immersion:blocks/popped_netherrack",
+    "west": "immersion:blocks/popped_netherrack",
+    "particle": "immersion:blocks/popped_netherrack"
+  }
+}

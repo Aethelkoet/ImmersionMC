@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:cut_emerald"
+    },
+    "title": {
+      "translate": "advancements.advancement_gems.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_gems.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_gems": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "immersion:advancement_gemcutter"
+}

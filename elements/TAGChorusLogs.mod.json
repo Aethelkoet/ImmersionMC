@@ -1,0 +1,26 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ChorusLog"
+      },
+      {
+        "value": "CUSTOM:ChorusWood"
+      },
+      {
+        "value": "CUSTOM:StrippedChorusLog"
+      },
+      {
+        "value": "CUSTOM:StrippedChorusWood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "chorus_logs",
+    "namespace": "mod"
+  }
+}

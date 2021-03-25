@@ -1,0 +1,32 @@
+{
+  "group": "stone_brick_wall",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:andesite_bricks"
+    },
+    "1": {
+      "item": "immersion:andesite_bricks"
+    },
+    "2": {
+      "item": "immersion:andesite_bricks"
+    },
+    "3": {
+      "item": "immersion:andesite_bricks"
+    },
+    "4": {
+      "item": "immersion:andesite_bricks"
+    },
+    "5": {
+      "item": "immersion:andesite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:andesite_brick_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "cuirass_armour",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:cut_diamond"
+    },
+    "2": {
+      "item": "immersion:cut_diamond"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "immersion:armour_black_cuirass_boots",
+    "count": 1
+  }
+}

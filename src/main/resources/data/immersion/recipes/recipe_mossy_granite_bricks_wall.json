@@ -1,0 +1,32 @@
+{
+  "group": "mossy_granite_bricks_wall",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:mossy_granite_bricks"
+    },
+    "1": {
+      "item": "immersion:mossy_granite_bricks"
+    },
+    "2": {
+      "item": "immersion:mossy_granite_bricks"
+    },
+    "3": {
+      "item": "immersion:mossy_granite_bricks"
+    },
+    "4": {
+      "item": "immersion:mossy_granite_bricks"
+    },
+    "5": {
+      "item": "immersion:mossy_granite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:mossy_granite_bricks_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "immersion:blocks/andesite_bricks",
+    "top": "immersion:blocks/andesite_bricks",
+    "side": "immersion:blocks/andesite_bricks"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "group": "scimitar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 ",
+    " 5"
+  ],
+  "key": {
+    "1": {
+      "tag": "planks"
+    },
+    "2": {
+      "tag": "planks"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "immersion:wooden_scimitar",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "mossy_andesite",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "immersion:mossy_andesite_bricks"
+  },
+  "result": "immersion:mossy_andesite_bricks_stairs"
+}

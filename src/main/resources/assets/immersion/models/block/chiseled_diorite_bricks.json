@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/chiseled_diorite_bricks",
+    "up": "immersion:blocks/chiseled_diorite_bricks",
+    "north": "immersion:blocks/chiseled_diorite_bricks",
+    "east": "immersion:blocks/chiseled_diorite_bricks",
+    "south": "immersion:blocks/chiseled_diorite_bricks",
+    "west": "immersion:blocks/chiseled_diorite_bricks",
+    "particle": "immersion:blocks/chiseled_diorite_bricks"
+  }
+}

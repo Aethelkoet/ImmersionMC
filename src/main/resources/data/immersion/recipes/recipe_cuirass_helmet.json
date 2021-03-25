@@ -1,0 +1,29 @@
+{
+  "group": "cuirass_armour",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "immersion:pure_diamond"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "immersion:cut_emerald"
+    },
+    "5": {
+      "item": "immersion:cut_emerald"
+    }
+  },
+  "result": {
+    "item": "immersion:armour_black_cuirass_helmet",
+    "count": 1
+  }
+}

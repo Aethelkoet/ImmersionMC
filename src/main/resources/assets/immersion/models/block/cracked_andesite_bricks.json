@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/cracked_andesite_bricks",
+    "up": "immersion:blocks/cracked_andesite_bricks",
+    "north": "immersion:blocks/cracked_andesite_bricks",
+    "east": "immersion:blocks/cracked_andesite_bricks",
+    "south": "immersion:blocks/cracked_andesite_bricks",
+    "west": "immersion:blocks/cracked_andesite_bricks",
+    "particle": "immersion:blocks/cracked_andesite_bricks"
+  }
+}

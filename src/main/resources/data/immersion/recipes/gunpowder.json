@@ -1,0 +1,16 @@
+{
+  "group": "gunpowder",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersion:sack_of_niter"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 8
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:cactus_wine_bottle"
+    },
+    "title": {
+      "translate": "advancements.advancement_home_brewed_attitude.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_home_brewed_attitude.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_home_brewed_attitude": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "immersion:advancement_fermenting"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "immersion:blocks/mossy_andesite_bricks",
+    "top": "immersion:blocks/mossy_andesite_bricks",
+    "side": "immersion:blocks/mossy_andesite_bricks"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "soul_sandstone",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "immersion:soul_sandstone"
+  },
+  "result": "immersion:smooth_soul_sandstone_stairs"
+}

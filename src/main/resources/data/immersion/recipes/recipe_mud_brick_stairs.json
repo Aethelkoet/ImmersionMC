@@ -1,0 +1,33 @@
+{
+  "group": "mud_brick_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:mud_bricks"
+    },
+    "3": {
+      "item": "immersion:mud_bricks"
+    },
+    "4": {
+      "item": "immersion:mud_bricks"
+    },
+    "6": {
+      "item": "immersion:mud_bricks"
+    },
+    "7": {
+      "item": "immersion:mud_bricks"
+    },
+    "8": {
+      "item": "immersion:mud_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:mud_bricks_stairs",
+    "count": 4
+  }
+}

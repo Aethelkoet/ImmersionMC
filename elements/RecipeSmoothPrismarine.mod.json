@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "prismarine",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedPrismarine"
+      },
+      {
+        "value": "CUSTOM:PolishedPrismarine"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedPrismarine"
+      },
+      {
+        "value": "CUSTOM:PolishedPrismarine"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SmoothPrismarine"
+    },
+    "name": "recipe_smooth_prismarine",
+    "namespace": "minecraft"
+  }
+}

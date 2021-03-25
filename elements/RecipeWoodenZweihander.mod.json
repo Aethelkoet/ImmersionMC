@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "wooden_zweihander",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WoodenLancer"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WoodenZweihander"
+    },
+    "name": "recipe_wooden_zweihander",
+    "namespace": "mod"
+  }
+}

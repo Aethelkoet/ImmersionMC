@@ -1,0 +1,26 @@
+{
+  "group": "chorus_wood",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:chorus_log"
+    },
+    "1": {
+      "item": "immersion:chorus_log"
+    },
+    "2": {
+      "item": "immersion:chorus_log"
+    },
+    "3": {
+      "item": "immersion:chorus_log"
+    }
+  },
+  "result": {
+    "item": "immersion:chorus_wood",
+    "count": 3
+  }
+}

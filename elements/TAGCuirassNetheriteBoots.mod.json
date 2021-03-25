@@ -1,0 +1,62 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourRedNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteNetheriteCuirass.boots"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowNetheriteCuirass.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_netherite_boots",
+    "namespace": "mod"
+  }
+}

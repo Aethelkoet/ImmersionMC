@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "immersion:blocks/soul_sandstone_side",
+    "particle": "immersion:blocks/soul_sandstone_side"
+  }
+}

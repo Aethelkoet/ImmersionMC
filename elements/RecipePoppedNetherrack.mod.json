@@ -1,0 +1,20 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "popped_netherrack",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.NETHERRACK"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:PoppedNetherrack"
+    },
+    "name": "recipe_popped_netherrack",
+    "namespace": "mod"
+  }
+}

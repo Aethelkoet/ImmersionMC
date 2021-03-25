@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "immersion:block/cut_soul_sandstone_slab"
+    },
+    "type=top": {
+      "model": "immersion:block/cut_soul_sandstone_slab_top"
+    },
+    "type=double": {
+      "model": "immersion:block/cut_soul_sandstone_slab_full"
+    }
+  }
+}

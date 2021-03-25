@@ -1,0 +1,36 @@
+{
+  "group": "cuirass_armour",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "immersion:cut_diamond"
+    },
+    "8": {
+      "item": "immersion:cut_diamond"
+    }
+  },
+  "result": {
+    "item": "immersion:armour_black_cuirass_leggings",
+    "count": 1
+  }
+}

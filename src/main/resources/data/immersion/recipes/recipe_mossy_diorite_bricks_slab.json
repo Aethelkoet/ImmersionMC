@@ -1,0 +1,22 @@
+{
+  "group": "mossy_diorite_bricks_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:mossy_diorite_bricks"
+    },
+    "1": {
+      "item": "immersion:mossy_diorite_bricks"
+    },
+    "2": {
+      "item": "immersion:mossy_diorite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:mossy_diorite_bricks_slab",
+    "count": 6
+  }
+}

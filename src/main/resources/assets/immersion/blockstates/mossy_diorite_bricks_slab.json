@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "immersion:block/mossy_diorite_bricks_slab"
+    },
+    "type=top": {
+      "model": "immersion:block/mossy_diorite_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "immersion:block/mossy_diorite_bricks_slab_full"
+    }
+  }
+}

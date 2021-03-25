@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/honeypuff",
+    "up": "immersion:blocks/honeypuff",
+    "north": "immersion:blocks/honeypuff",
+    "east": "immersion:blocks/honeypuff",
+    "south": "immersion:blocks/honeypuff",
+    "west": "immersion:blocks/honeypuff",
+    "particle": "immersion:blocks/honeypuff"
+  }
+}

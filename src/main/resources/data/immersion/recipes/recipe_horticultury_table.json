@@ -1,0 +1,42 @@
+{
+  "group": "horticultury_table",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "wooden_slabs"
+    },
+    "1": {
+      "item": "minecraft:dirt"
+    },
+    "2": {
+      "tag": "wooden_slabs"
+    },
+    "3": {
+      "tag": "planks"
+    },
+    "4": {
+      "item": "minecraft:bone_meal"
+    },
+    "5": {
+      "tag": "planks"
+    },
+    "6": {
+      "tag": "planks"
+    },
+    "7": {
+      "tag": "logs"
+    },
+    "8": {
+      "tag": "planks"
+    }
+  },
+  "result": {
+    "item": "immersion:horticultury_table",
+    "count": 1
+  }
+}

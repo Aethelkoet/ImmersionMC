@@ -1,0 +1,22 @@
+{
+  "group": "mud_brick_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:mud_bricks"
+    },
+    "1": {
+      "item": "immersion:mud_bricks"
+    },
+    "2": {
+      "item": "immersion:mud_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:mud_bricks_slab",
+    "count": 6
+  }
+}

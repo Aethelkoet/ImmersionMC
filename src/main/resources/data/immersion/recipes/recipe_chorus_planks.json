@@ -1,0 +1,16 @@
+{
+  "group": "chorus_planks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "tag": "chorus_logs"
+    }
+  },
+  "result": {
+    "item": "immersion:chorus_planks",
+    "count": 4
+  }
+}

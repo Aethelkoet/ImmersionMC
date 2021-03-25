@@ -1,0 +1,62 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourRedCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteCuirass.body"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowCuirass.body"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_chestplates",
+    "namespace": "mod"
+  }
+}

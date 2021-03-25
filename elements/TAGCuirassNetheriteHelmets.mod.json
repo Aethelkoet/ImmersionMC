@@ -1,0 +1,62 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ArmourBlackNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBlueNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourBrownNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourCyanNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourGrayNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourGreenNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLightBlueNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLightGrayNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourLimeNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourMagentaNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourOrangeNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourPinkNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourPurpleNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourRedNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourWhiteNetheriteCuirass.helmet"
+      },
+      {
+        "value": "CUSTOM:ArmourYellowNetheriteCuirass.helmet"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cuirass_netherite_helmets",
+    "namespace": "mod"
+  }
+}

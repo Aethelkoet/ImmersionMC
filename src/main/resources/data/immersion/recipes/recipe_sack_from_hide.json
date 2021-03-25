@@ -1,0 +1,26 @@
+{
+  "group": "sack",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "3": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "result": {
+    "item": "immersion:sack",
+    "count": 1
+  }
+}

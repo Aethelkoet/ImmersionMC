@@ -1,0 +1,16 @@
+{
+  "group": "purple_dye",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:royal_tulip"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_dye",
+    "count": 2
+  }
+}

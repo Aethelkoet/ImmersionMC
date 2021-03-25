@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/smooth_prismarine",
+    "up": "immersion:blocks/smooth_prismarine",
+    "north": "immersion:blocks/smooth_prismarine",
+    "east": "immersion:blocks/smooth_prismarine",
+    "south": "immersion:blocks/smooth_prismarine",
+    "west": "immersion:blocks/smooth_prismarine",
+    "particle": "immersion:blocks/smooth_prismarine"
+  }
+}

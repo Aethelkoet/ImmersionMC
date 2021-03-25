@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "immersion:blocks/chorus_planks",
+    "particle": "immersion:blocks/chorus_planks"
+  }
+}

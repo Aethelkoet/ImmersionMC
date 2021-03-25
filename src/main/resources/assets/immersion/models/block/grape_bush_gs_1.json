@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "immersion:blocks/berry_bush_gs1",
+    "particle": "immersion:blocks/berry_bush_gs1"
+  }
+}
