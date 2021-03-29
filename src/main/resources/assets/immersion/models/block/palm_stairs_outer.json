@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "immersion:blocks/palm_planks",
+    "top": "immersion:blocks/palm_planks",
+    "side": "immersion:blocks/palm_planks"
+  }
+}

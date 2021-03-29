@@ -2,8 +2,6 @@ package net.aethelwyn.immersion.procedures;
 
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
@@ -309,7 +307,6 @@ public class TorisciteGenerationProcedure extends ImmersionModElements.ModElemen
 		}
 	}
 
-	@OnlyIn(Dist.DEDICATED_SERVER)
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		this.executeProcedure(Collections.emptyMap());

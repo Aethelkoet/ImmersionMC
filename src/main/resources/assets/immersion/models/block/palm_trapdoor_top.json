@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "immersion:blocks/palm_trapdoor",
+    "particle": "immersion:blocks/palm_trapdoor"
+  }
+}

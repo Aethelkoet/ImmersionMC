@@ -1,0 +1,26 @@
+{
+  "group": "chiselled_toriscite_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:toriscite_bricks"
+    },
+    "1": {
+      "item": "immersion:toriscite_bricks"
+    },
+    "2": {
+      "item": "immersion:toriscite_bricks"
+    },
+    "3": {
+      "item": "immersion:toriscite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:chiselled_toriscite_bricks",
+    "count": 4
+  }
+}

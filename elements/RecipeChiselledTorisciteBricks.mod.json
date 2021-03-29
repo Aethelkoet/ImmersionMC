@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "chiselled_toriscite_bricks",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TorisciteBricks"
+      },
+      {
+        "value": "CUSTOM:TorisciteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TorisciteBricks"
+      },
+      {
+        "value": "CUSTOM:TorisciteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChiselledTorisciteBricks"
+    },
+    "name": "recipe_chiselled_toriscite_bricks",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "immersion:zinnia",
+    "immersion:dahlia",
+    "immersion:viola",
+    "immersion:myosotis",
+    "immersion:royal_tulip",
+    "immersion:black_myosotis",
+    "immersion:blue_myosotis",
+    "immersion:light_blue_myosotis",
+    "immersion:gray_myosotis",
+    "immersion:light_gray_myosotis",
+    "immersion:white_myosotis",
+    "immersion:green_myosotis",
+    "immersion:lime_myosotis",
+    "immersion:purple_myosotis",
+    "immersion:magenta_myosotis",
+    "immersion:pink_myosotis",
+    "immersion:red_myosotis",
+    "immersion:orange_myosotis",
+    "immersion:yellow_myosotis",
+    "immersion:brown_myosotis"
+  ]
+}

@@ -2,9 +2,9 @@
   "_fv": 17,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "wooden_zweihander",
-    "customModelName": "Normal",
+    "customModelName": "zweihander:wood",
     "name": "Wooden Zweihander",
     "specialInfo": [],
     "creativeTab": {

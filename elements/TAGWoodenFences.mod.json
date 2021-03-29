@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:ChorusFence"
+      },
+      {
+        "value": "CUSTOM:PalmFence"
       }
     ],
     "blocks": [],

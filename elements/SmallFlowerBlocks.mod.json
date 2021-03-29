@@ -1,0 +1,74 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Zinnia"
+      },
+      {
+        "value": "CUSTOM:Dahlia"
+      },
+      {
+        "value": "CUSTOM:Viola"
+      },
+      {
+        "value": "CUSTOM:Myosotis"
+      },
+      {
+        "value": "CUSTOM:RoyalTulip"
+      },
+      {
+        "value": "CUSTOM:BlackMyosotis"
+      },
+      {
+        "value": "CUSTOM:BlueMyosotis"
+      },
+      {
+        "value": "CUSTOM:LightBlueMyosotis"
+      },
+      {
+        "value": "CUSTOM:GrayMyosotis"
+      },
+      {
+        "value": "CUSTOM:LightGrayMyosotis"
+      },
+      {
+        "value": "CUSTOM:WhiteMyosotis"
+      },
+      {
+        "value": "CUSTOM:GreenMyosotis"
+      },
+      {
+        "value": "CUSTOM:LimeMyosotis"
+      },
+      {
+        "value": "CUSTOM:PurpleMyosotis"
+      },
+      {
+        "value": "CUSTOM:MagentaMyosotis"
+      },
+      {
+        "value": "CUSTOM:PinkMyosotis"
+      },
+      {
+        "value": "CUSTOM:RedMyosotis"
+      },
+      {
+        "value": "CUSTOM:OrangeMyosotis"
+      },
+      {
+        "value": "CUSTOM:YellowMyosotis"
+      },
+      {
+        "value": "CUSTOM:BrownMyosotis"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

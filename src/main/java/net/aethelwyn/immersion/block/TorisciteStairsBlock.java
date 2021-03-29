@@ -38,8 +38,8 @@ public class TorisciteStairsBlock extends ImmersionModElements.ModElement {
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(6f, 40f)).getDefaultState(),
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 40f).setLightLevel(s -> 0).harvestLevel(2)
-							.harvestTool(ToolType.PICKAXE).setRequiresTool());
+					Block.Properties.create(Material.ROCK).sound(SoundType.NETHER_BRICK).hardnessAndResistance(6f, 40f).setLightLevel(s -> 0)
+							.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("toriscite_stairs");
 		}
 

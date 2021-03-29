@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "immersion:blocks/corinth_portal",
+    "particle": "immersion:blocks/corinth_portal"
+  }
+}

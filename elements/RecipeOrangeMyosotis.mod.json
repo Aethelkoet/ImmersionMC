@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 8,
+    "group": "myosotis_colouring",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:myosotis_flower"
+      },
+      {
+        "value": "TAG:myosotis_flower"
+      },
+      {
+        "value": "TAG:myosotis_flower"
+      },
+      {
+        "value": "TAG:myosotis_flower"
+      },
+      {
+        "value": "Items.DYE#14"
+      },
+      {
+        "value": "TAG:myosotis_flower"
+      },
+      {
+        "value": "TAG:myosotis_flower"
+      },
+      {
+        "value": "TAG:myosotis_flower"
+      },
+      {
+        "value": "TAG:myosotis_flower"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OrangeMyosotis"
+    },
+    "name": "recipe_orange_myosotis",
+    "namespace": "mod"
+  }
+}

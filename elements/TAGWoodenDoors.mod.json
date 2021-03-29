@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:ChorusDoor"
+      },
+      {
+        "value": "CUSTOM:PalmDoor"
       }
     ],
     "blocks": [],

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "immersion:wooden_zweihander"
+    },
+    "title": {
+      "translate": "advancements.advancement_big_woop.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_big_woop.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "advancement_big_woop": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "immersion:logic_immersion"
+}

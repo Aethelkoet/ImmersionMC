@@ -1,0 +1,12 @@
+{
+  "_fv": 17,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "isTauntingAllowed",
+    "description": "Is the Taunting Curse allowed to insult you.",
+    "category": "PLAYER",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

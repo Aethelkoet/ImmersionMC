@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "immersion:blocks/palm_planks",
+    "top": "immersion:blocks/palm_planks",
+    "side": "immersion:blocks/palm_planks"
+  }
+}

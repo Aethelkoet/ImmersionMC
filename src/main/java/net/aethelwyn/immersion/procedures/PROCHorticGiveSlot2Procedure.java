@@ -327,6 +327,93 @@ public class PROCHorticGiveSlot2Procedure extends ImmersionModElements.ModElemen
 						}
 					}
 				}
+			} else {
+				{
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) ((new Object() {
+									public int getAmount(int sltid) {
+										if (entity instanceof ServerPlayerEntity) {
+											Container _current = ((ServerPlayerEntity) entity).openContainer;
+											if (_current instanceof Supplier) {
+												Object invobj = ((Supplier) _current).get();
+												if (invobj instanceof Map) {
+													ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+													if (stack != null)
+														return stack.getCount();
+												}
+											}
+										}
+										return 0;
+									}
+								}.getAmount((int) (0)))));
+								_current.detectAndSendChanges();
+							}
+						}
+					}
+				}
+				{
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) ((new Object() {
+									public int getAmount(int sltid) {
+										if (entity instanceof ServerPlayerEntity) {
+											Container _current = ((ServerPlayerEntity) entity).openContainer;
+											if (_current instanceof Supplier) {
+												Object invobj = ((Supplier) _current).get();
+												if (invobj instanceof Map) {
+													ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+													if (stack != null)
+														return stack.getCount();
+												}
+											}
+										}
+										return 0;
+									}
+								}.getAmount((int) (1)))));
+								_current.detectAndSendChanges();
+							}
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (2))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (3))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (4))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
 			}
 		} else {
 			if (entity instanceof ServerPlayerEntity) {

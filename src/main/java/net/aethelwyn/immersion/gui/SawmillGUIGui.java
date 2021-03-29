@@ -28,6 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import net.aethelwyn.immersion.procedures.PROCSawmillRecipesProcedure;
 import net.aethelwyn.immersion.procedures.PROCSawmillGiveSlot9Procedure;
 import net.aethelwyn.immersion.procedures.PROCSawmillGiveSlot8Procedure;
 import net.aethelwyn.immersion.procedures.PROCSawmillGiveSlot7Procedure;
@@ -41,7 +42,6 @@ import net.aethelwyn.immersion.procedures.PROCSawmillGiveSlot12Procedure;
 import net.aethelwyn.immersion.procedures.PROCSawmillGiveSlot11Procedure;
 import net.aethelwyn.immersion.procedures.PROCSawmillGiveSlot10Procedure;
 import net.aethelwyn.immersion.procedures.GUISolveDupeBugProcedure;
-import net.aethelwyn.immersion.procedures.BugFixWorkstationSlotChangeProcedure;
 import net.aethelwyn.immersion.ImmersionModElements;
 import net.aethelwyn.immersion.ImmersionMod;
 
@@ -620,7 +620,7 @@ public class SawmillGUIGui extends ImmersionModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				BugFixWorkstationSlotChangeProcedure.executeProcedure($_dependencies);
+				PROCSawmillRecipesProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

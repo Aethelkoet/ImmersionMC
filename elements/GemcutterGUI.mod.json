@@ -33,7 +33,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "BugFixWorkstationSlotChange"
+            "name": "ProcGemcutterRecipes"
           },
           "name": "Slot #0",
           "x": 204,

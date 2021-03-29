@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "immersion:ornate_toriscite_bricks"
+  },
+  "addition": {
+    "item": "immersion:pure_diamond"
+  },
+  "result": {
+    "item": "immersion:gem_gilded_ornate_toriscite_bricks"
+  }
+}

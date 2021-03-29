@@ -1,0 +1,33 @@
+{
+  "group": "toriscite_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "3": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "4": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "6": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "7": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "8": {
+      "item": "immersion:cobbled_toriscite"
+    }
+  },
+  "result": {
+    "item": "immersion:cobbled_toriscite_stairs",
+    "count": 4
+  }
+}

@@ -2,9 +2,9 @@
   "_fv": 17,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "stone_zweihander",
-    "customModelName": "Normal",
+    "customModelName": "zweihander:stone",
     "name": "Stone Zweihander",
     "specialInfo": [],
     "creativeTab": {

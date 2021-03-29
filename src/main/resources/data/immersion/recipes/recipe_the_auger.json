@@ -1,0 +1,42 @@
+{
+  "group": "the_auger",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:ornate_toriscite_bricks"
+    },
+    "1": {
+      "item": "immersion:pure_emerald"
+    },
+    "2": {
+      "item": "immersion:ornate_toriscite_bricks"
+    },
+    "3": {
+      "item": "immersion:pure_amethyst"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "5": {
+      "item": "immersion:pure_lapis_lazuli"
+    },
+    "6": {
+      "item": "immersion:ornate_toriscite_bricks"
+    },
+    "7": {
+      "item": "immersion:pure_diamond"
+    },
+    "8": {
+      "item": "immersion:ornate_toriscite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:auger_gem",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "alchemy_table",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "1": {
+      "item": "immersion:auger_gem"
+    },
+    "2": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "3": {
+      "item": "immersion:polished_toriscite"
+    },
+    "4": {
+      "item": "immersion:gem_gilded_ornate_toriscite_bricks"
+    },
+    "5": {
+      "item": "immersion:polished_toriscite"
+    },
+    "6": {
+      "item": "immersion:polished_toriscite"
+    },
+    "7": {
+      "item": "immersion:ornate_toriscite_bricks"
+    },
+    "8": {
+      "item": "immersion:polished_toriscite"
+    }
+  },
+  "result": {
+    "item": "immersion:alchemy_table",
+    "count": 1
+  }
+}

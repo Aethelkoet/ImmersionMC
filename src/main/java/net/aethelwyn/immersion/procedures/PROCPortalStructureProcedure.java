@@ -21,15 +21,8 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.aethelwyn.immersion.item.AugerGemItem;
-import net.aethelwyn.immersion.block.TorisciteBricksBlock;
-import net.aethelwyn.immersion.block.TorisciteBrickWallBlock;
-import net.aethelwyn.immersion.block.TorisciteBrickStairsBlock;
-import net.aethelwyn.immersion.block.PolishedTorisciteBlock;
-import net.aethelwyn.immersion.block.OrnateTorisciteBricksBlock;
 import net.aethelwyn.immersion.block.GemGildedOrnateTorisciteBricksBlock;
 import net.aethelwyn.immersion.block.CorinthPortalBlock;
-import net.aethelwyn.immersion.block.CobbledTorisciteWallBlock;
-import net.aethelwyn.immersion.block.ChiselledTorisciteBricksBlock;
 import net.aethelwyn.immersion.ImmersionModElements;
 import net.aethelwyn.immersion.ImmersionMod;
 
@@ -79,149 +72,10 @@ public class PROCPortalStructureProcedure extends ImmersionModElements.ModElemen
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((((((((((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 4), (int) (z + 1)))).getBlock() == PolishedTorisciteBlock.block
-				.getDefaultState().getBlock())
-				&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 4), (int) (z + 2)))).getBlock() == PolishedTorisciteBlock.block
-						.getDefaultState().getBlock()))
-				&& (((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 4), (int) (z - 2)))).getBlock() == PolishedTorisciteBlock.block
-						.getDefaultState().getBlock())
-						&& ((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 4), (int) (z - 1))))
-								.getBlock() == PolishedTorisciteBlock.block.getDefaultState().getBlock())))
-				&& ((((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 4), (int) (z + 1)))).getBlock() == PolishedTorisciteBlock.block
-						.getDefaultState().getBlock())
-						&& ((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 4), (int) (z + 2))))
-								.getBlock() == PolishedTorisciteBlock.block.getDefaultState().getBlock()))
-						&& (((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 4), (int) (z - 1))))
-								.getBlock() == PolishedTorisciteBlock.block.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 4), (int) (z - 2))))
-										.getBlock() == PolishedTorisciteBlock.block.getDefaultState().getBlock()))))
-				&& (((((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 4), (int) (z - 1)))).getBlock() == TorisciteBricksBlock.block
-						.getDefaultState().getBlock())
-						&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 4), (int) (z + 1)))).getBlock() == TorisciteBricksBlock.block
-								.getDefaultState().getBlock()))
-						&& (((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 4), (int) (z - 1)))).getBlock() == TorisciteBricksBlock.block
-								.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 4), (int) (z + 1))))
-										.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())))
-						&& ((((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 4), (int) z))).getBlock() == TorisciteBricksBlock.block
-								.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 4), (int) z)))
-										.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock()))
-								&& (((world.getBlockState(new BlockPos((int) x, (int) (y - 4), (int) (z - 1))))
-										.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())
-										&& ((world.getBlockState(new BlockPos((int) x, (int) (y - 4), (int) (z - 2))))
-												.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())))))
-				&& ((((((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 4), (int) (z - 2)))).getBlock() == TorisciteBricksBlock.block
-						.getDefaultState().getBlock())
-						&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 4), (int) (z + 2)))).getBlock() == TorisciteBricksBlock.block
-								.getDefaultState().getBlock()))
-						&& (((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 4), (int) (z - 2)))).getBlock() == TorisciteBricksBlock.block
-								.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 4), (int) (z + 2))))
-										.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())))
-						&& ((((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 4), (int) (z + 3))))
-								.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 4), (int) (z + 3))))
-										.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock()))
-								&& (((world.getBlockState(new BlockPos((int) (x + 3), (int) (y - 4), (int) (z + 1))))
-										.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())
-										&& ((world.getBlockState(new BlockPos((int) (x + 3), (int) (y - 4), (int) (z + 2))))
-												.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock()))))
-						&& (((((world.getBlockState(new BlockPos((int) (x + 3), (int) (y - 4), (int) (z + 3))))
-								.getBlock() == OrnateTorisciteBricksBlock.block.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) (x - 3), (int) (y - 4), (int) (z + 1))))
-										.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock()))
-								&& (((world.getBlockState(new BlockPos((int) (x - 3), (int) (y - 4), (int) (z + 2))))
-										.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())
-										&& (((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 4), (int) (z + 3))))
-												.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())
-												&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 4), (int) (z + 3))))
-														.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock()))))
-								&& ((((((world.getBlockState(new BlockPos((int) (x - 3), (int) (y - 4), (int) (z + 3))))
-										.getBlock() == ChiselledTorisciteBricksBlock.block.getDefaultState().getBlock())
-										&& ((world.getBlockState(new BlockPos((int) (x + 3), (int) (y - 4), (int) (z - 1))))
-												.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock()))
-										&& (((world.getBlockState(new BlockPos((int) (x + 3), (int) (y - 4), (int) (z - 2))))
-												.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())
-												&& ((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 4), (int) (z - 3))))
-														.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())))
-										&& ((((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 4), (int) (z - 3))))
-												.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())
-												&& ((world.getBlockState(new BlockPos((int) (x + 3), (int) (y - 4), (int) (z - 3))))
-														.getBlock() == ChiselledTorisciteBricksBlock.block.getDefaultState().getBlock()))
-												&& (((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 4), (int) (z - 3))))
-														.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())
-														&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 4), (int) (z - 3))))
-																.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock()))))
-										&& (((((world.getBlockState(new BlockPos((int) (x - 3), (int) (y - 4), (int) (z - 1))))
-												.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock())
-												&& ((world.getBlockState(new BlockPos((int) (x - 3), (int) (y - 4), (int) (z - 2))))
-														.getBlock() == TorisciteBricksBlock.block.getDefaultState().getBlock()))
-												&& (((world.getBlockState(new BlockPos((int) (x - 3), (int) (y - 4), (int) (z - 3))))
-														.getBlock() == ChiselledTorisciteBricksBlock.block.getDefaultState().getBlock())
-														&& ((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 4), (int) (z + 2))))
-																.getBlock() == OrnateTorisciteBricksBlock.block.getDefaultState().getBlock())))
-												&& ((((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 4), (int) (z + 2))))
-														.getBlock() == OrnateTorisciteBricksBlock.block.getDefaultState().getBlock())
-														&& ((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 4), (int) (z - 2))))
-																.getBlock() == OrnateTorisciteBricksBlock.block.getDefaultState().getBlock()))
-														&& (((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 4), (int) (z - 2))))
-																.getBlock() == OrnateTorisciteBricksBlock.block.getDefaultState().getBlock())
-																&& ((world.getBlockState(new BlockPos((int) x, (int) (y - 4), (int) z)))
-																		.getBlock() == OrnateTorisciteBricksBlock.block.getDefaultState()
-																				.getBlock()))))))))
-				&& ((((((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 3), (int) z))).getBlock() == TorisciteBrickStairsBlock.block
-						.getDefaultState().getBlock())
-						&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 3), (int) z))).getBlock() == TorisciteBrickStairsBlock.block
-								.getDefaultState().getBlock()))
-						&& (((world.getBlockState(new BlockPos((int) x, (int) (y - 3), (int) (z + 1)))).getBlock() == TorisciteBrickStairsBlock.block
-								.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) x, (int) (y - 3), (int) (z - 1))))
-										.getBlock() == TorisciteBrickStairsBlock.block.getDefaultState().getBlock())))
-						&& ((((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 3), (int) (z + 1))))
-								.getBlock() == TorisciteBrickStairsBlock.block.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 3), (int) (z + 1))))
-										.getBlock() == TorisciteBrickStairsBlock.block.getDefaultState().getBlock()))
-								&& (((world.getBlockState(new BlockPos((int) (x + 1), (int) (y - 3), (int) (z - 1))))
-										.getBlock() == TorisciteBrickStairsBlock.block.getDefaultState().getBlock())
-										&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) (y - 3), (int) (z - 1))))
-												.getBlock() == TorisciteBrickStairsBlock.block.getDefaultState().getBlock()))))
-						&& ((((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == GemGildedOrnateTorisciteBricksBlock.block
-								.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) x, (int) (y - 3), (int) z)))
-										.getBlock() == GemGildedOrnateTorisciteBricksBlock.block.getDefaultState().getBlock()))
-								&& ((((world.getBlockState(new BlockPos((int) (x + 2), (int) y, (int) (z + 2))))
-										.getBlock() == GemGildedOrnateTorisciteBricksBlock.block.getDefaultState().getBlock())
-										&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) y, (int) (z + 2))))
-												.getBlock() == GemGildedOrnateTorisciteBricksBlock.block.getDefaultState().getBlock()))
-										&& (((world.getBlockState(new BlockPos((int) (x + 2), (int) y, (int) (z - 2))))
-												.getBlock() == GemGildedOrnateTorisciteBricksBlock.block.getDefaultState().getBlock())
-												&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) y, (int) (z - 2))))
-														.getBlock() == GemGildedOrnateTorisciteBricksBlock.block.getDefaultState().getBlock()))))))
-				&& (((((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 3), (int) (z + 2)))).getBlock() == TorisciteBrickWallBlock.block
-						.getDefaultState().getBlock())
-						&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 3), (int) (z + 2))))
-								.getBlock() == TorisciteBrickWallBlock.block.getDefaultState().getBlock()))
-						&& (((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 3), (int) (z - 2))))
-								.getBlock() == TorisciteBrickWallBlock.block.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 3), (int) (z - 2))))
-										.getBlock() == TorisciteBrickWallBlock.block.getDefaultState().getBlock())))
-						&& (((((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 1), (int) (z + 2))))
-								.getBlock() == TorisciteBrickWallBlock.block.getDefaultState().getBlock())
-								&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 1), (int) (z + 2))))
-										.getBlock() == TorisciteBrickWallBlock.block.getDefaultState().getBlock()))
-								&& (((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 1), (int) (z - 2))))
-										.getBlock() == TorisciteBrickWallBlock.block.getDefaultState().getBlock())
-										&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 1), (int) (z - 2))))
-												.getBlock() == TorisciteBrickWallBlock.block.getDefaultState().getBlock())))
-								&& ((((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 2), (int) (z + 2))))
-										.getBlock() == CobbledTorisciteWallBlock.block.getDefaultState().getBlock())
-										&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 2), (int) (z + 2))))
-												.getBlock() == CobbledTorisciteWallBlock.block.getDefaultState().getBlock()))
-										&& (((world.getBlockState(new BlockPos((int) (x + 2), (int) (y - 2), (int) (z - 2))))
-												.getBlock() == CobbledTorisciteWallBlock.block.getDefaultState().getBlock())
-												&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y - 2), (int) (z - 2))))
-														.getBlock() == CobbledTorisciteWallBlock.block.getDefaultState().getBlock()))))))) {
+		if ((((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == GemGildedOrnateTorisciteBricksBlock.block.getDefaultState()
+				.getBlock())
+				&& ((world.getBlockState(new BlockPos((int) x, (int) (y - 3), (int) z))).getBlock() == GemGildedOrnateTorisciteBricksBlock.block
+						.getDefaultState().getBlock()))) {
 			if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 					.getItem() == new ItemStack(AugerGemItem.block, (int) (1)).getItem())) {
 				world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), CorinthPortalBlock.block.getDefaultState(), 3);

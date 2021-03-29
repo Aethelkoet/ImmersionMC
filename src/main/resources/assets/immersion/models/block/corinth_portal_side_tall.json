@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "immersion:blocks/corinth_portal",
+    "particle": "immersion:blocks/corinth_portal"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "immersion:blocks/orange_myosotis",
+    "particle": "immersion:blocks/orange_myosotis"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "the_auger",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:OrnateTorisciteBricks"
+      },
+      {
+        "value": "CUSTOM:PureEmerald"
+      },
+      {
+        "value": "CUSTOM:OrnateTorisciteBricks"
+      },
+      {
+        "value": "CUSTOM:PureAmethyst"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:PureLapisLazuli"
+      },
+      {
+        "value": "CUSTOM:OrnateTorisciteBricks"
+      },
+      {
+        "value": "CUSTOM:PureDiamond"
+      },
+      {
+        "value": "CUSTOM:OrnateTorisciteBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AugerGem"
+    },
+    "name": "recipe_the_auger",
+    "namespace": "mod"
+  }
+}

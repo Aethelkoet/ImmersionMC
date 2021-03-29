@@ -20,7 +20,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "BugFixWorkstationSlotChange"
+            "name": "PROCSawmillRecipes"
           },
           "name": "Slot #0",
           "x": 141,

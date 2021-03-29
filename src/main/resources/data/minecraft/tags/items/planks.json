@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "immersion:chorus_planks"
+    "immersion:chorus_planks",
+    "immersion:palm_planks"
   ]
 }

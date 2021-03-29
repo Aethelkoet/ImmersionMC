@@ -1,0 +1,62 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Myosotis"
+      },
+      {
+        "value": "CUSTOM:BlackMyosotis"
+      },
+      {
+        "value": "CUSTOM:BlueMyosotis"
+      },
+      {
+        "value": "CUSTOM:LightBlueMyosotis"
+      },
+      {
+        "value": "CUSTOM:GrayMyosotis"
+      },
+      {
+        "value": "CUSTOM:LightGrayMyosotis"
+      },
+      {
+        "value": "CUSTOM:WhiteMyosotis"
+      },
+      {
+        "value": "CUSTOM:GreenMyosotis"
+      },
+      {
+        "value": "CUSTOM:LimeMyosotis"
+      },
+      {
+        "value": "CUSTOM:PurpleMyosotis"
+      },
+      {
+        "value": "CUSTOM:MagentaMyosotis"
+      },
+      {
+        "value": "CUSTOM:PinkMyosotis"
+      },
+      {
+        "value": "CUSTOM:RedMyosotis"
+      },
+      {
+        "value": "CUSTOM:OrangeMyosotis"
+      },
+      {
+        "value": "CUSTOM:YellowMyosotis"
+      },
+      {
+        "value": "CUSTOM:BrownMyosotis"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "myosotis_flower",
+    "namespace": "mod"
+  }
+}

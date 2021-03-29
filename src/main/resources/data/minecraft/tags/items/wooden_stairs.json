@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "immersion:chorus_stairs"
+    "immersion:chorus_stairs",
+    "immersion:palm_stairs"
   ]
 }

@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:ChorusSlab"
+      },
+      {
+        "value": "CUSTOM:PalmSlab"
       }
     ],
     "blocks": [],

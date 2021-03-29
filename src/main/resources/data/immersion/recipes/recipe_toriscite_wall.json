@@ -1,0 +1,32 @@
+{
+  "group": "toriscite_wall",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:toriscite"
+    },
+    "1": {
+      "item": "immersion:toriscite"
+    },
+    "2": {
+      "item": "immersion:toriscite"
+    },
+    "3": {
+      "item": "immersion:toriscite"
+    },
+    "4": {
+      "item": "immersion:toriscite"
+    },
+    "5": {
+      "item": "immersion:toriscite"
+    }
+  },
+  "result": {
+    "item": "immersion:toriscite_wall",
+    "count": 6
+  }
+}

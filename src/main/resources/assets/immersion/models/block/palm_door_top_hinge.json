@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "immersion:blocks/palm_door_bottom",
+    "top": "immersion:blocks/palm_door_top"
+  }
+}

@@ -7,10 +7,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.Direction;
 import net.minecraft.state.Property;
-import net.minecraft.state.EnumProperty;
-import net.minecraft.state.DirectionProperty;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
@@ -149,36 +146,7 @@ public class PROCGrapeHarvestProcedure extends ImmersionModElements.ModElement {
 			}
 		} else if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(GrapesItem.block, (int) (1)).getItem())
-				&& (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == RopeBlock.block.getDefaultState().getBlock())
-						&& (((new Object() {
-							public Direction getDirection(BlockPos pos) {
-								try {
-									BlockState _bs = world.getBlockState(pos);
-									DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
-									if (property != null)
-										return _bs.get(property);
-									return Direction.getFacingFromAxisDirection(
-											_bs.get((EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis")),
-											Direction.AxisDirection.POSITIVE);
-								} catch (Exception e) {
-									return Direction.NORTH;
-								}
-							}
-						}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.UP) || ((new Object() {
-							public Direction getDirection(BlockPos pos) {
-								try {
-									BlockState _bs = world.getBlockState(pos);
-									DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
-									if (property != null)
-										return _bs.get(property);
-									return Direction.getFacingFromAxisDirection(
-											_bs.get((EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis")),
-											Direction.AxisDirection.POSITIVE);
-								} catch (Exception e) {
-									return Direction.NORTH;
-								}
-							}
-						}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.DOWN))))) {
+				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == RopeBlock.block.getDefaultState().getBlock()))) {
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockState _bs = GrapeGS1Block.block.getDefaultState();

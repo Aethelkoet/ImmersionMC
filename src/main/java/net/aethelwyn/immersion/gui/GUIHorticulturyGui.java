@@ -28,11 +28,11 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import net.aethelwyn.immersion.procedures.PROCHorticRecipesProcedure;
 import net.aethelwyn.immersion.procedures.PROCHorticGiveSlot3Procedure;
 import net.aethelwyn.immersion.procedures.PROCHorticGiveSlot2Procedure;
 import net.aethelwyn.immersion.procedures.PROCHorticGiveSlot1Procedure;
 import net.aethelwyn.immersion.procedures.GUISolveDupeBugProcedure;
-import net.aethelwyn.immersion.procedures.BugFixWorkstation2InputProcedure;
 import net.aethelwyn.immersion.ImmersionModElements;
 import net.aethelwyn.immersion.ImmersionMod;
 
@@ -456,7 +456,7 @@ public class GUIHorticulturyGui extends ImmersionModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				BugFixWorkstation2InputProcedure.executeProcedure($_dependencies);
+				PROCHorticRecipesProcedure.executeProcedure($_dependencies);
 			}
 		}
 		if (slotID == 1 && changeType == 0) {
@@ -466,7 +466,7 @@ public class GUIHorticulturyGui extends ImmersionModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				BugFixWorkstation2InputProcedure.executeProcedure($_dependencies);
+				PROCHorticRecipesProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

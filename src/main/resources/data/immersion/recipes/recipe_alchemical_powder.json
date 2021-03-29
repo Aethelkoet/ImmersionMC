@@ -1,0 +1,25 @@
+{
+  "group": "alchemical_powder",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "petals"
+    },
+    {
+      "item": "immersion:sack_of_niter"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "result": {
+    "item": "immersion:alchemical_powder",
+    "count": 2
+  }
+}

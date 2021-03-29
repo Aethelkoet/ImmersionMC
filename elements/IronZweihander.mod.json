@@ -2,9 +2,9 @@
   "_fv": 17,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "iron_zweihander",
-    "customModelName": "Normal",
+    "customModelName": "zweihander:iron",
     "name": "Iron Zweihander",
     "specialInfo": [],
     "creativeTab": {

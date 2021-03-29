@@ -1,0 +1,26 @@
+{
+  "group": "toriscite_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:polished_toriscite"
+    },
+    "1": {
+      "item": "immersion:polished_toriscite"
+    },
+    "2": {
+      "item": "immersion:polished_toriscite"
+    },
+    "3": {
+      "item": "immersion:polished_toriscite"
+    }
+  },
+  "result": {
+    "item": "immersion:toriscite_bricks",
+    "count": 4
+  }
+}

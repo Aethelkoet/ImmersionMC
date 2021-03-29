@@ -1,0 +1,22 @@
+{
+  "group": "palm_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:palm_planks"
+    },
+    "1": {
+      "item": "immersion:palm_planks"
+    },
+    "2": {
+      "item": "immersion:palm_planks"
+    }
+  },
+  "result": {
+    "item": "immersion:palm_slab",
+    "count": 6
+  }
+}

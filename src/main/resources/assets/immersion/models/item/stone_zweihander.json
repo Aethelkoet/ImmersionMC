@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "immersion:custom/zweihander",
   "textures": {
-    "layer0": "immersion:items/stone_zweihander"
+    "0": "immersion:blocks/stone_zweihander",
+    "particle": "immersion:items/stone_zweihander"
   }
 }

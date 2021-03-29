@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "immersion:chorus_fence"
+    "immersion:chorus_fence",
+    "immersion:palm_fence"
   ]
 }

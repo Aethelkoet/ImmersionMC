@@ -1,0 +1,26 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PalmLog"
+      },
+      {
+        "value": "CUSTOM:PalmWood"
+      },
+      {
+        "value": "CUSTOM:StrippedPalmLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPalmWood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "palm_logs",
+    "namespace": "mod"
+  }
+}

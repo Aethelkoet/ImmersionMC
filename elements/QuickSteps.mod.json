@@ -1,0 +1,48 @@
+{
+  "_fv": 17,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Quick Steps",
+    "type": "ARMOR_FEET",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "PROTECTION"
+      },
+      {
+        "value": "FIRE_PROTECTION"
+      },
+      {
+        "value": "FEATHER_FALLING"
+      },
+      {
+        "value": "BLAST_PROTECTION"
+      },
+      {
+        "value": "PROJECTILE_PROTECTION"
+      },
+      {
+        "value": "FROST_WALKER"
+      },
+      {
+        "value": "BINDING_CURSE"
+      },
+      {
+        "value": "MENDING"
+      },
+      {
+        "value": "VANISHING_CURSE"
+      },
+      {
+        "value": "SOUL_SPEED"
+      }
+    ],
+    "compatibleItems": [],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

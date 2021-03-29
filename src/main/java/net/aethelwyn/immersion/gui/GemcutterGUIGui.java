@@ -28,10 +28,10 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import net.aethelwyn.immersion.procedures.ProcGemcutterRecipesProcedure;
 import net.aethelwyn.immersion.procedures.PROCGemcutterGiveSlot2Procedure;
 import net.aethelwyn.immersion.procedures.PROCGemcutterGiveSlot1Procedure;
 import net.aethelwyn.immersion.procedures.GUISolveDupeBugProcedure;
-import net.aethelwyn.immersion.procedures.BugFixWorkstationSlotChangeProcedure;
 import net.aethelwyn.immersion.ImmersionModElements;
 import net.aethelwyn.immersion.ImmersionMod;
 
@@ -430,7 +430,7 @@ public class GemcutterGUIGui extends ImmersionModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				BugFixWorkstationSlotChangeProcedure.executeProcedure($_dependencies);
+				ProcGemcutterRecipesProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

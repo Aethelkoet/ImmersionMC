@@ -38,7 +38,7 @@ public class CobbledTorisciteSlabBlock extends ImmersionModElements.ModElement {
 	}
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(4.55f, 40f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHER_BRICK).hardnessAndResistance(4.55f, 40f).setLightLevel(s -> 0)
 					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("cobbled_toriscite_slab");
 		}

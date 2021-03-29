@@ -73,7 +73,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "NETHER_BRICK"
     },
     "luminance": 0,
     "unbreakable": false,

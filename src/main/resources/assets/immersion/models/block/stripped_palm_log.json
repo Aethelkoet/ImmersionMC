@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "immersion:blocks/stripped_palm_log_top",
+    "up": "immersion:blocks/stripped_palm_log_top",
+    "north": "immersion:blocks/stripped_palm_log_side",
+    "east": "immersion:blocks/stripped_palm_log_side",
+    "south": "immersion:blocks/stripped_palm_log_side",
+    "west": "immersion:blocks/stripped_palm_log_side",
+    "particle": "immersion:blocks/stripped_palm_log_top"
+  }
+}

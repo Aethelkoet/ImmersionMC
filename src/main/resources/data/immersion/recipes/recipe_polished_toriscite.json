@@ -1,0 +1,26 @@
+{
+  "group": "polished_toriscite",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:toriscite"
+    },
+    "1": {
+      "item": "immersion:toriscite"
+    },
+    "2": {
+      "item": "immersion:toriscite"
+    },
+    "3": {
+      "item": "immersion:toriscite"
+    }
+  },
+  "result": {
+    "item": "immersion:polished_toriscite",
+    "count": 4
+  }
+}

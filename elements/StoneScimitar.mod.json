@@ -39,6 +39,9 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ScimitarFence"
+    },
     "onEntityHitWith": {
       "name": "EnchantmentHandlerScimitar"
     }

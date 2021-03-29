@@ -169,7 +169,7 @@ public class PROCPlaceFruitPlantProcedure extends ImmersionModElements.ModElemen
 	}
 
 	@SubscribeEvent
-	public void onRightClickItem(PlayerInteractEvent.RightClickItem event) {
+	public void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
 		PlayerEntity entity = event.getPlayer();
 		if (event.getHand() != entity.getActiveHand()) {
 			return;

@@ -1,0 +1,32 @@
+{
+  "group": "toriscite_wall",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "1": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "2": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "3": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "4": {
+      "item": "immersion:cobbled_toriscite"
+    },
+    "5": {
+      "item": "immersion:cobbled_toriscite"
+    }
+  },
+  "result": {
+    "item": "immersion:cobbled_toriscite_wall",
+    "count": 6
+  }
+}

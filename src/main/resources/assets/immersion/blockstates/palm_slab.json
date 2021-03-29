@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "immersion:block/palm_slab"
+    },
+    "type=top": {
+      "model": "immersion:block/palm_slab_top"
+    },
+    "type=double": {
+      "model": "immersion:block/palm_slab_full"
+    }
+  }
+}

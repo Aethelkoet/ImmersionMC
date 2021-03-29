@@ -1,0 +1,33 @@
+{
+  "group": "palm_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:palm_planks"
+    },
+    "3": {
+      "item": "immersion:palm_planks"
+    },
+    "4": {
+      "item": "immersion:palm_planks"
+    },
+    "6": {
+      "item": "immersion:palm_planks"
+    },
+    "7": {
+      "item": "immersion:palm_planks"
+    },
+    "8": {
+      "item": "immersion:palm_planks"
+    }
+  },
+  "result": {
+    "item": "immersion:palm_stairs",
+    "count": 4
+  }
+}

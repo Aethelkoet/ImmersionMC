@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "gold": {
+      "map": {
+        "0": "golden_zweihander"
+      },
+      "name": "gold"
+    },
+    "default": {
+      "map": {
+        "0": "netherite_zweihander"
+      },
+      "name": "default"
+    },
+    "diamond": {
+      "map": {
+        "0": "diamond_zweihander"
+      },
+      "name": "diamond"
+    },
+    "iron": {
+      "map": {
+        "0": "iron_zweihander"
+      },
+      "name": "iron"
+    },
+    "wood": {
+      "map": {
+        "0": "wooden_zweihander"
+      },
+      "name": "wood"
+    },
+    "stone": {
+      "map": {
+        "0": "stone_zweihander"
+      },
+      "name": "stone"
+    }
+  }
+}

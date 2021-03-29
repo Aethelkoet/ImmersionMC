@@ -115,7 +115,7 @@ public class PROCHorticGiveSlot3Procedure extends ImmersionModElements.ModElemen
 									}
 									return 0;
 								}
-							}.getAmount((int) (0)))));
+							}.getAmount((int) (1)))));
 							_current.detectAndSendChanges();
 						}
 					}

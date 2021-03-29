@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "toriscite_stairs",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Toriscite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Toriscite"
+      },
+      {
+        "value": "CUSTOM:Toriscite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Toriscite"
+      },
+      {
+        "value": "CUSTOM:Toriscite"
+      },
+      {
+        "value": "CUSTOM:Toriscite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TorisciteStairs"
+    },
+    "name": "recipe_toriscite_stairs",
+    "namespace": "mod"
+  }
+}

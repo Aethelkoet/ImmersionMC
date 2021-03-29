@@ -1,0 +1,42 @@
+{
+  "group": "ornate_toriscite_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:toriscite_bricks"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "immersion:toriscite_bricks"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "immersion:chiselled_toriscite_bricks"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "immersion:toriscite_bricks"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "immersion:toriscite_bricks"
+    }
+  },
+  "result": {
+    "item": "immersion:ornate_toriscite_bricks",
+    "count": 1
+  }
+}

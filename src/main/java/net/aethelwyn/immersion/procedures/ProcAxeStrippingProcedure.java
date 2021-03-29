@@ -21,8 +21,12 @@ import net.minecraft.client.entity.player.AbstractClientPlayerEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
+import net.aethelwyn.immersion.block.StrippedPalmWoodBlock;
+import net.aethelwyn.immersion.block.StrippedPalmLogBlock;
 import net.aethelwyn.immersion.block.StrippedChorusWoodBlock;
 import net.aethelwyn.immersion.block.StrippedChorusLogBlock;
+import net.aethelwyn.immersion.block.PalmWoodBlock;
+import net.aethelwyn.immersion.block.PalmLogBlock;
 import net.aethelwyn.immersion.block.ChorusWoodBlock;
 import net.aethelwyn.immersion.block.ChorusLogBlock;
 import net.aethelwyn.immersion.ImmersionModElements;
@@ -208,6 +212,170 @@ public class ProcAxeStrippingProcedure extends ImmersionModElements.ModElement {
 				{
 					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 					BlockState _bs = StrippedChorusWoodBlock.block.getDefaultState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.get(_property) != null)
+							try {
+								_bs = _bs.with(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					TileEntity _te = world.getTileEntity(_bp);
+					CompoundNBT _bnbt = null;
+					if (_te != null) {
+						_bnbt = _te.write(new CompoundNBT());
+						_te.remove();
+					}
+					world.setBlockState(_bp, _bs, 3);
+					if (_bnbt != null) {
+						_te = world.getTileEntity(_bp);
+						if (_te != null) {
+							try {
+								_te.read(_bso, _bnbt);
+							} catch (Exception ignored) {
+							}
+						}
+					}
+				}
+			}
+		} else if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+				.getItem() instanceof AxeItem)
+				&& (PalmLogBlock.block.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock()))) {
+			if ((!(new Object() {
+				public boolean checkGamemode(Entity _ent) {
+					if (_ent instanceof ServerPlayerEntity) {
+						return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
+					} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
+						NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
+								.getPlayerInfo(((AbstractClientPlayerEntity) _ent).getGameProfile().getId());
+						return _npi != null && _npi.getGameType() == GameType.CREATIVE;
+					}
+					return false;
+				}
+			}.checkGamemode(entity)))) {
+				{
+					ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+					if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
+						_ist.shrink(1);
+						_ist.setDamage(0);
+					}
+				}
+				{
+					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					BlockState _bs = StrippedPalmLogBlock.block.getDefaultState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.get(_property) != null)
+							try {
+								_bs = _bs.with(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					TileEntity _te = world.getTileEntity(_bp);
+					CompoundNBT _bnbt = null;
+					if (_te != null) {
+						_bnbt = _te.write(new CompoundNBT());
+						_te.remove();
+					}
+					world.setBlockState(_bp, _bs, 3);
+					if (_bnbt != null) {
+						_te = world.getTileEntity(_bp);
+						if (_te != null) {
+							try {
+								_te.read(_bso, _bnbt);
+							} catch (Exception ignored) {
+							}
+						}
+					}
+				}
+			} else {
+				{
+					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					BlockState _bs = StrippedPalmLogBlock.block.getDefaultState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.get(_property) != null)
+							try {
+								_bs = _bs.with(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					TileEntity _te = world.getTileEntity(_bp);
+					CompoundNBT _bnbt = null;
+					if (_te != null) {
+						_bnbt = _te.write(new CompoundNBT());
+						_te.remove();
+					}
+					world.setBlockState(_bp, _bs, 3);
+					if (_bnbt != null) {
+						_te = world.getTileEntity(_bp);
+						if (_te != null) {
+							try {
+								_te.read(_bso, _bnbt);
+							} catch (Exception ignored) {
+							}
+						}
+					}
+				}
+			}
+		} else if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+				.getItem() instanceof AxeItem)
+				&& (PalmWoodBlock.block.getDefaultState().getBlock() == (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock()))) {
+			if ((!(new Object() {
+				public boolean checkGamemode(Entity _ent) {
+					if (_ent instanceof ServerPlayerEntity) {
+						return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
+					} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
+						NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
+								.getPlayerInfo(((AbstractClientPlayerEntity) _ent).getGameProfile().getId());
+						return _npi != null && _npi.getGameType() == GameType.CREATIVE;
+					}
+					return false;
+				}
+			}.checkGamemode(entity)))) {
+				{
+					ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+					if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
+						_ist.shrink(1);
+						_ist.setDamage(0);
+					}
+				}
+				{
+					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					BlockState _bs = StrippedPalmWoodBlock.block.getDefaultState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.get(_property) != null)
+							try {
+								_bs = _bs.with(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					TileEntity _te = world.getTileEntity(_bp);
+					CompoundNBT _bnbt = null;
+					if (_te != null) {
+						_bnbt = _te.write(new CompoundNBT());
+						_te.remove();
+					}
+					world.setBlockState(_bp, _bs, 3);
+					if (_bnbt != null) {
+						_te = world.getTileEntity(_bp);
+						if (_te != null) {
+							try {
+								_te.read(_bso, _bnbt);
+							} catch (Exception ignored) {
+							}
+						}
+					}
+				}
+			} else {
+				{
+					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					BlockState _bs = StrippedPalmWoodBlock.block.getDefaultState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 						Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());

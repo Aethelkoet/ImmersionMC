@@ -2,9 +2,9 @@
   "_fv": 17,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "golden_zweihander",
-    "customModelName": "Normal",
+    "customModelName": "zweihander:gold",
     "name": "Golden Zweihander",
     "specialInfo": [],
     "creativeTab": {

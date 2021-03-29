@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:ChorusStairs"
+      },
+      {
+        "value": "CUSTOM:PalmStairs"
       }
     ],
     "blocks": [],

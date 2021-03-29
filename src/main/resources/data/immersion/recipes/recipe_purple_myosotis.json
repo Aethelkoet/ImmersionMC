@@ -1,0 +1,42 @@
+{
+  "group": "myosotis_colouring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "myosotis_flower"
+    },
+    "1": {
+      "tag": "myosotis_flower"
+    },
+    "2": {
+      "tag": "myosotis_flower"
+    },
+    "3": {
+      "tag": "myosotis_flower"
+    },
+    "4": {
+      "item": "minecraft:purple_dye"
+    },
+    "5": {
+      "tag": "myosotis_flower"
+    },
+    "6": {
+      "tag": "myosotis_flower"
+    },
+    "7": {
+      "tag": "myosotis_flower"
+    },
+    "8": {
+      "tag": "myosotis_flower"
+    }
+  },
+  "result": {
+    "item": "immersion:purple_myosotis",
+    "count": 8
+  }
+}

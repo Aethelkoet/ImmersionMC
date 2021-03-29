@@ -1,0 +1,22 @@
+{
+  "group": "toriscite_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "immersion:toriscite"
+    },
+    "1": {
+      "item": "immersion:toriscite"
+    },
+    "2": {
+      "item": "immersion:toriscite"
+    }
+  },
+  "result": {
+    "item": "immersion:toriscite_slab",
+    "count": 6
+  }
+}

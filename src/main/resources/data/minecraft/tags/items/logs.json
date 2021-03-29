@@ -4,6 +4,10 @@
     "immersion:chorus_log",
     "immersion:chorus_wood",
     "immersion:stripped_chorus_log",
-    "immersion:stripped_chorus_wood"
+    "immersion:stripped_chorus_wood",
+    "immersion:palm_log",
+    "immersion:palm_wood",
+    "immersion:stripped_palm_log",
+    "immersion:stripped_palm_wood"
   ]
 }

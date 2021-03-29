@@ -33,7 +33,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "BugFixWorkstation2Input"
+            "name": "PROCHorticRecipes"
           },
           "name": "Slot #0",
           "x": 168,
@@ -50,7 +50,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "BugFixWorkstation2Input"
+            "name": "PROCHorticRecipes"
           },
           "name": "Slot #1",
           "x": 240,

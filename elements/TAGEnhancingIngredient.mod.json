@@ -1,0 +1,20 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.GHAST_TEAR"
+      },
+      {
+        "value": "Items.GOLDEN_CARROT"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "enhancing_ingredient",
+    "namespace": "mod"
+  }
+}
